@@ -1,0 +1,17 @@
+name: "@ax/target-llvm"
+version: 2.4.4
+author: Siemens AG
+description: The LLVM target backend.
+type: generic
+scripts:
+  build: "# dummy"
+_internalPackageJsonPassthrough:
+  optionalDependencies:
+    "@ax/target-llvm-win-x64": 2.4.4
+    "@ax/target-llvm-linux-x64": 2.4.4
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/languages/st/st-compiler
+dependencies:
+  '@ax/third-party-licenses-st-compiler': 2.4.4

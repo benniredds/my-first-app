@@ -1,0 +1,14 @@
+{
+  "hidden": true,
+  "optionalDependencies": {
+    "@ax/axunit-runner-mc7plus-win-x64": "1.5.4647"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/axunit-runner-mc7plus",
+  "version": "1.5.4647",
+  "description": "The AxUnit Mc7Plus Runner.",
+  "author": "Siemens AG"
+}

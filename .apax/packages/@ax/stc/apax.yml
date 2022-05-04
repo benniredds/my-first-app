@@ -1,0 +1,16 @@
+name: "@ax/stc"
+version: 2.4.4
+author: Siemens AG
+description: The ST compiler.
+type: generic
+scripts:
+  build: "# dummy"
+_internalPackageJsonPassthrough:
+  optionalDependencies:
+    "@ax/stc-win-x64": 2.4.4
+    "@ax/stc-linux-x64": 2.4.4
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/languages/st/st-compiler
+dependencies:
+  '@ax/third-party-licenses-st-compiler': 2.4.4

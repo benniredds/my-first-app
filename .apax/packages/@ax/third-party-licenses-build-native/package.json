@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/languages/st/build-native"
+  },
+  "name": "@ax/third-party-licenses-build-native",
+  "version": "10.1.1"
+}

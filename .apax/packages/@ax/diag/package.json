@@ -1,0 +1,17 @@
+{
+  "optionalDependencies": {
+    "@ax/diag-win-x64": "0.16.1",
+    "@ax/diag-linux-x64": "0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/diag",
+  "version": "0.16.1",
+  "description": "The SIMATIC diagnostics tool allows you to analyze the state of a SIMATIC PLC.",
+  "dependencies": {
+    "@ax/third-party-licenses-monitor": "0.16.1"
+  },
+  "author": "Siemens AG"
+}

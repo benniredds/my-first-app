@@ -1,0 +1,1 @@
+See the @ax/third-party-licenses-plc-loader package for information about third-party licenses.

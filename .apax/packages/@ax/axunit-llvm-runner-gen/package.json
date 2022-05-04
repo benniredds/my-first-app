@@ -1,0 +1,14 @@
+{
+  "hidden": true,
+  "bin": {
+    "axunit-runner-gen": "axunit-runner-gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/axunit-llvm-runner-gen",
+  "version": "1.5.4647",
+  "description": "The LLVM Runner Generator.",
+  "author": "Siemens AG"
+}

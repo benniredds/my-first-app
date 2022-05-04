@@ -1,0 +1,97 @@
+
+XBV
+
+$GLOBALfb"
+
+$GLOBALmy_Input"	
+LREAL!
+
+$GLOBALstorage"	
+LREAL¥*¢
+
+$GLOBALmyclass:#
+
+$GLOBALmyStaticInt"
+INT:
+
+$GLOBALmypublic"
+INT:"
+
+$GLOBAL
+myInternal"
+INTB#
+
+$GLOBALGetStaticInfo"
+INTV
+T
+
+$GLOBAL	my_Struct
+
+$GLOBALmy_BOOL"
+BOOL
+
+$GLOBALmy_int"
+INT*B
+
+$GLOBALmyfunction_3
+
+$GLOBALmyIN_3"
+INT"
+INT*>
+
+$GLOBAL
+myfunction
+
+$GLOBALmyIN"
+INT"
+INT*B
+
+$GLOBALmyfunction_2
+
+$GLOBALmyIN_2"
+INT"
+INT2
+
+$GLOBAL	MyProgram2
+
+$GLOBALMyProgram_22
+
+$GLOBALMyProgram_3:Ì
+
+$GLOBALMyConfiguration*+
+
+$GLOBALP1Main
+$GLOBAL	MyProgram*/
+
+$GLOBALP2task_2
+$GLOBALMyProgram_2*/
+
+$GLOBALP3task_3
+$GLOBALMyProgram_32]
+
+$GLOBALMainDefaultIntervalTask3"1
+
+	tInterval
+
+1000000000
+
+	iPriority
+12_
+
+$GLOBALtask_2DefaultIntervalTask3"1
+
+	tInterval
+
+1000000000
+
+	iPriority
+12_
+
+$GLOBALtask_3DefaultIntervalTask3"1
+
+	tInterval
+
+1000000000
+
+	iPriority
+1

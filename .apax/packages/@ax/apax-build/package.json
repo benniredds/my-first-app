@@ -1,0 +1,13 @@
+{
+  "bin": "bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/apax/apax-build"
+  },
+  "name": "@ax/apax-build",
+  "version": "0.4.1",
+  "description": "Provides the functionality for the `apax build` command.",
+  "dependencies": {
+    "@ax/third-party-licenses-apax-build": "0.4.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "optionalDependencies": {
+    "@ax/mod-win-x64": "0.16.1",
+    "@ax/mod-linux-x64": "0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/mod",
+  "version": "0.16.1",
+  "description": "The SIMATIC Modifier.",
+  "dependencies": {
+    "@ax/third-party-licenses-monitor": "0.16.1"
+  },
+  "author": "Siemens AG"
+}

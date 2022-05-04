@@ -1,0 +1,17 @@
+name: "@ax/axunit-library"
+version: 1.5.4647
+author: Siemens AG
+description: AxUnit library support for unit testing.
+type: lib
+files:
+  - src
+  - library
+scripts:
+  build:
+    - mkdir src
+    - cp ../../src/AxUnit.Library/*.st src/
+_internalPackageJsonPassthrough:
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework

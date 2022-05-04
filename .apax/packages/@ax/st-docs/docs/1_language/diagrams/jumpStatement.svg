@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="209" height="153" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="54" y="17" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs" class="rulecaption">jumpStatement:</text>
+    <line x1="29" y1="39" x2="36" y2="39" />
+    <rect x="37" width="130" y="28" height="22" class="rule" />
+    <text x="102" y="42" text-anchor="middle" textLength="119" lengthAdjust="spacingAndGlyphs">continueStatement</text>
+    <line x1="168" y1="39" x2="175" y2="39" />
+    <line x1="43" y1="67" x2="50" y2="67" />
+    <rect x="51" width="102" y="56" height="22" class="rule" />
+    <text x="102" y="70" text-anchor="middle" textLength="91" lengthAdjust="spacingAndGlyphs">exitStatement</text>
+    <line x1="154" y1="67" x2="161" y2="67" />
+    <line x1="36" y1="95" x2="43" y2="95" />
+    <rect x="44" width="116" y="84" height="22" class="rule" />
+    <text x="102" y="98" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs">returnStatement</text>
+    <line x1="161" y1="95" x2="168" y2="95" />
+    <line x1="14" y1="39" x2="30" y2="39" />
+    <line x1="173" y1="39" x2="190" y2="39" />
+    <path d="M20,39 a5,5 0 0 1 5,5 L25,90 a5,5 0 0 0 5,5 L38,95" />
+    <path d="M166,95 L174,95 a5,5 0 0 0 5,-5 L179,44 a5,5 0 0 1 5,-5" />
+    <path d="M25,62 a5,5 0 0 0 5,5 L45,67" />
+    <path d="M179,62 a5,5 0 0 1 -5,5 L159,67" />
+    <line x1="188" y1="39" x2="195" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="194" y1="39" x2="204" y2="39" />
+    <line x1="199" y1="33" x2="199" y2="45" />
+    <line x1="204" y1="33" x2="204" y2="45" />
+  </g>
+</svg>

@@ -1,0 +1,2418 @@
+{
+  "@ax/sdk": {
+    "name": "@ax/sdk",
+    "version": "1.0.165",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\sdk",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/sdk",
+      "version": "1.0.165",
+      "author": "Siemens AG",
+      "description": "The AX SDK includes everything you need to build PLC applications.",
+      "type": "generic",
+      "dependencies": {
+        "@ax/axunit": "1.5.4647",
+        "@ax/diag": "0.16.1",
+        "@ax/mod": "0.16.1",
+        "@ax/mon": "0.16.1",
+        "@ax/sdb": "0.16.1",
+        "@ax/sld": "0.11.1",
+        "@ax/st": "1.0.165",
+        "@ax/target-llvm": "2.4.4",
+        "@ax/target-mc7plus": "2.4.4"
+      },
+      "_internalPackageJsonPassthrough": {
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/apax/apax-sdk"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json"
+    ]
+  },
+  "@ax/axunit": {
+    "name": "@ax/axunit",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The AxUnit includes everything you need for unit testing.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "files": [
+        "*.js"
+      ],
+      "dependencies": {
+        "@ax/axunit-library": "1.5.4647",
+        "@ax/axunit-runner-llvm": "1.5.4647",
+        "@ax/axunit-llvm-runner-gen": "1.5.4647",
+        "@ax/axunit-runner-mc7plus": "1.5.4647",
+        "@ax/target-axunit": "1.5.4647",
+        "@ax/axunit-docs": "1.5.4647",
+        "@ax/build-native": "10.1.1"
+      },
+      "_internalPackageJsonPassthrough": {
+        "bin": {
+          "axunit": "axunit.js",
+          "apax-test": "axunit.js",
+          "axunit-build-native": "axunit-build-native-runner.js"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "axunit-build-native-runner.js",
+      "axunit.js",
+      "package.json"
+    ]
+  },
+  "@ax/diag": {
+    "name": "@ax/diag",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\diag",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/diag",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The SIMATIC diagnostics tool allows you to analyze the state of a SIMATIC PLC.",
+      "type": "generic",
+      "scripts": {
+        "build": "cp -r ../../docs/diag ./docs\ncp ../../CHANGELOG.md .\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/diag-win-x64": "0.16.1",
+          "@ax/diag-linux-x64": "0.16.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/index.md"
+    ]
+  },
+  "@ax/mod": {
+    "name": "@ax/mod",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\mod",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/mod",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The SIMATIC Modifier.",
+      "type": "generic",
+      "scripts": {
+        "build": "cp -r ../../docs/mod ./docs\ncp ../../CHANGELOG.md .\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/mod-win-x64": "0.16.1",
+          "@ax/mod-linux-x64": "0.16.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/index.md"
+    ]
+  },
+  "@ax/mon": {
+    "name": "@ax/mon",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\mon",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/mon",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The SIMATIC Monitor. Enables you to monitor global variables on your PLC.",
+      "type": "generic",
+      "scripts": {
+        "build": "cp ../../CHANGELOG.md .\ncp -r ../../docs/mon ./docs\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/mon-win-x64": "0.16.1",
+          "@ax/mon-linux-x64": "0.16.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/index.md"
+    ]
+  },
+  "@ax/sdb": {
+    "name": "@ax/sdb",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\sdb",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/sdb",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The SIMATIC Debugger. Enables debugging source code on the PLC and is needed to run the debugger extension.",
+      "type": "generic",
+      "scripts": {
+        "build": "cp ../../CHANGELOG.md .\ncp -r ../../docs/sdb ./docs\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/sdb-win-x64": "0.16.1",
+          "@ax/sdb-linux-x64": "0.16.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/index.md"
+    ]
+  },
+  "@ax/sld": {
+    "name": "@ax/sld",
+    "version": "0.11.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\sld",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/sld",
+      "version": "0.11.1",
+      "author": "Siemens AG",
+      "description": "The SIMATIC Loader.",
+      "type": "generic",
+      "scripts": {
+        "build": "cp -r ../../docs .\ncp ../../CHANGELOG.md .\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/sld-win-x64": "0.11.1",
+          "@ax/sld-linux-x64": "0.11.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/plc-loader"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-plc-loader": "0.11.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/index.md"
+    ]
+  },
+  "@ax/st": {
+    "name": "@ax/st",
+    "version": "1.0.165",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\st",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/st",
+      "version": "1.0.165",
+      "author": "Siemens AG",
+      "description": "The ST (Structured Text) package includes the compiler and associated tooling.",
+      "type": "generic",
+      "dependencies": {
+        "@ax/stc": "2.4.4",
+        "@ax/apax-build": "0.4.1"
+      },
+      "_internalPackageJsonPassthrough": {
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/apax/apax-sdk"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json"
+    ]
+  },
+  "@ax/target-llvm": {
+    "name": "@ax/target-llvm",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\target-llvm",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/target-llvm",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The LLVM target backend.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/target-llvm-win-x64": "2.4.4",
+          "@ax/target-llvm-linux-x64": "2.4.4"
+        },
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt"
+    ]
+  },
+  "@ax/target-mc7plus": {
+    "name": "@ax/target-mc7plus",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\target-mc7plus",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/target-mc7plus",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The MC7plus target backend.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/target-mc7plus-win-x64": "2.4.4",
+          "@ax/target-mc7plus-linux-x64": "2.4.4"
+        },
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt"
+    ]
+  },
+  "@ax/axunit-library": {
+    "name": "@ax/axunit-library",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-library",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-library",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "AxUnit library support for unit testing.",
+      "type": "lib",
+      "files": [
+        "src",
+        "library"
+      ],
+      "scripts": {
+        "build": [
+          "mkdir src",
+          "cp ../../src/AxUnit.Library/*.st src/"
+        ]
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "src/Assert.st",
+      "src/ByteArrayConverter.st",
+      "src/Mocking.st"
+    ]
+  },
+  "@ax/axunit-runner-llvm": {
+    "name": "@ax/axunit-runner-llvm",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-runner-llvm",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-runner-llvm",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The AxUnit LLVM Runner.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "optionalDependencies": {
+          "@ax/axunit-runner-llvm-linux-x64": "1.5.4647",
+          "@ax/axunit-runner-llvm-win-x64": "1.5.4647"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json"
+    ]
+  },
+  "@ax/axunit-llvm-runner-gen": {
+    "name": "@ax/axunit-llvm-runner-gen",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-llvm-runner-gen",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-llvm-runner-gen",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The LLVM Runner Generator.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/LLVM.Runner.Generator -o bin -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "bin": {
+          "axunit-runner-gen": "axunit-runner-gen.js"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "axunit-runner-gen.js",
+      "package.json",
+      "bin/AX.App.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AxUnit.Runner.Core.dll",
+      "bin/Colorful.Console.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/LLVM.Runner.Generator.deps.json",
+      "bin/LLVM.Runner.Generator.dll",
+      "bin/LLVM.Runner.Generator.exe",
+      "bin/LLVM.Runner.Generator.runtimeconfig.json",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/System.CodeDom.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/Assets/TestCasesMetaInfo.xsd"
+    ]
+  },
+  "@ax/axunit-runner-mc7plus": {
+    "name": "@ax/axunit-runner-mc7plus",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-runner-mc7plus",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-runner-mc7plus",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The AxUnit Mc7Plus Runner.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "optionalDependencies": {
+          "@ax/axunit-runner-mc7plus-win-x64": "1.5.4647"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json"
+    ]
+  },
+  "@ax/target-axunit": {
+    "name": "@ax/target-axunit",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\target-axunit",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/target-axunit",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The target AxUnit.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Target.AxUnit.Cli -o bin -f netstandard2.0 -p:NuGetScannerDownloadSources=false"
+      },
+      "files": [
+        "bin/AxUnit.Analyzer.dll",
+        "bin/Target.AxUnit.CLI.BackendPlugin.deps.json",
+        "bin/Target.AxUnit.CLI.BackendPlugin.dll",
+        "bin/Target.AxUnit.dll"
+      ],
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "bin/AxUnit.Analyzer.dll",
+      "bin/Target.AxUnit.CLI.BackendPlugin.deps.json",
+      "bin/Target.AxUnit.CLI.BackendPlugin.dll",
+      "bin/Target.AxUnit.dll"
+    ]
+  },
+  "@ax/axunit-docs": {
+    "name": "@ax/axunit-docs",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-docs",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-docs",
+      "version": "1.5.4647",
+      "type": "generic",
+      "scripts": {
+        "build": "cp -r ../../userdocs docs\ncp ../../CHANGELOG.md CHANGELOG.md\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json"
+    ]
+  },
+  "@ax/build-native": {
+    "name": "@ax/build-native",
+    "version": "10.1.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\build-native",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/build-native",
+      "version": "10.1.1",
+      "author": "Siemens AG",
+      "description": "tools to compile LLVM to native for linux/winx64",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "optionalDependencies": {
+          "@ax/build-native-winx64": "10.1.1",
+          "@ax/build-native-linux": "10.1.1"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/build-native"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-build-native": "10.1.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt"
+    ]
+  },
+  "@ax/third-party-licenses-monitor": {
+    "name": "@ax/third-party-licenses-monitor",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\third-party-licenses-monitor",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/third-party-licenses-monitor",
+      "version": "0.16.1",
+      "type": "generic",
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_SOURCES.tgz"
+    ]
+  },
+  "@ax/diag-win-x64": {
+    "name": "@ax/diag-win-x64",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\diag-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/diag-win-x64",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the the SIMATIC diagnostics tool. Do not reference this package directly, use @ax/diag instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Simatic.Diagnostics.CLI -o bin -r win-x64 -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "diag": "./bin/diag.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.Loadable.dll",
+      "bin/diag.deps.json",
+      "bin/diag.dll",
+      "bin/diag.exe",
+      "bin/diag.runtimeconfig.json",
+      "bin/Google.Protobuf.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Simatic.Diagnostics.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll"
+    ]
+  },
+  "@ax/mod-win-x64": {
+    "name": "@ax/mod-win-x64",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\mod-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/mod-win-x64",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the the SIMATIC Modifier. Do not reference this package directly, use @ax/mod instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Simatic.Modify.CLI --configuration Release --output ./bin --runtime win-x64 --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "mod": "./bin/mod.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.Simatic.Debug.Implementation.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.Monitor.dll",
+      "bin/AX.Simatic.Monitor.Output.dll",
+      "bin/AX.Simatic.OMS.Commons.dll",
+      "bin/AX.Simatic.OMS.Utils.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/CsvHelper.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/Grpc.Core.Api.dll",
+      "bin/Grpc.Core.dll",
+      "bin/grpc_csharp_ext.x64.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bin/Microsoft.Extensions.Configuration.Binder.dll",
+      "bin/Microsoft.Extensions.Configuration.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.Configuration.dll",
+      "bin/Microsoft.Extensions.Logging.Console.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/mod.deps.json",
+      "bin/mod.dll",
+      "bin/mod.exe",
+      "bin/mod.runtimeconfig.json",
+      "bin/OMSp_managed_linux.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Simatic.Debug.CLI.Commons.dll",
+      "bin/Simatic.OMS.dll",
+      "bin/System.CodeDom.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/wrapper_native.dll"
+    ]
+  },
+  "@ax/mon-win-x64": {
+    "name": "@ax/mon-win-x64",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\mon-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/mon-win-x64",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the the SIMATIC Monitor. Do not reference this package directly, use @ax/mon instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Simatic.Monitor.CLI --configuration Release --output ./bin --runtime win-x64 --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "mon": "./bin/mon.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.Simatic.Debug.Implementation.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.Monitor.dll",
+      "bin/AX.Simatic.Monitor.Output.dll",
+      "bin/AX.Simatic.OMS.Commons.dll",
+      "bin/AX.Simatic.OMS.Utils.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/CsvHelper.dll",
+      "bin/Glob.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/Grpc.Core.Api.dll",
+      "bin/Grpc.Core.dll",
+      "bin/grpc_csharp_ext.x64.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/mon.deps.json",
+      "bin/mon.dll",
+      "bin/mon.exe",
+      "bin/mon.runtimeconfig.json",
+      "bin/OMSp_managed_linux.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Simatic.Debug.CLI.Commons.dll",
+      "bin/Simatic.OMS.dll",
+      "bin/System.CodeDom.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.IO.Abstractions.dll",
+      "bin/System.IO.Abstractions.TestingHelpers.dll",
+      "bin/System.IO.FileSystem.AccessControl.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Security.AccessControl.dll",
+      "bin/System.Security.Principal.Windows.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/wrapper_native.dll"
+    ]
+  },
+  "@ax/sdb-win-x64": {
+    "name": "@ax/sdb-win-x64",
+    "version": "0.16.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\sdb-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/sdb-win-x64",
+      "version": "0.16.1",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the SIMATIC Debugger. Do not reference this package directly, use @ax/sdb instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Simatic.Debug.CLI --configuration Release --output ./bin --runtime win-x64 --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "sdb": "./bin/sdb.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/monitor"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-monitor": "0.16.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.Simatic.Debug.Implementation.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.Monitor.dll",
+      "bin/AX.Simatic.Monitor.Output.dll",
+      "bin/AX.Simatic.OMS.Commons.dll",
+      "bin/AX.Simatic.OMS.Utils.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/CsvHelper.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/Grpc.Core.Api.dll",
+      "bin/Grpc.Core.dll",
+      "bin/grpc_csharp_ext.x64.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bin/Microsoft.Extensions.Configuration.Binder.dll",
+      "bin/Microsoft.Extensions.Configuration.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.Configuration.dll",
+      "bin/Microsoft.Extensions.Logging.Console.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/OMSp_managed_linux.dll",
+      "bin/sdb.deps.json",
+      "bin/sdb.dll",
+      "bin/sdb.exe",
+      "bin/sdb.runtimeconfig.json",
+      "bin/SemanticVersioning.dll",
+      "bin/Simatic.Debug.CLI.Commons.dll",
+      "bin/Simatic.OMS.dll",
+      "bin/System.CodeDom.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/wrapper_native.dll"
+    ]
+  },
+  "@ax/third-party-licenses-plc-loader": {
+    "name": "@ax/third-party-licenses-plc-loader",
+    "version": "0.11.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\third-party-licenses-plc-loader",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/third-party-licenses-plc-loader",
+      "version": "0.11.1",
+      "type": "generic",
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/plc-loader"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_SOURCES.tgz"
+    ]
+  },
+  "@ax/sld-win-x64": {
+    "name": "@ax/sld-win-x64",
+    "version": "0.11.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\sld-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/sld-win-x64",
+      "version": "0.11.1",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the SIMATIC Loader. Do not reference this package directly, use @ax/sld instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/Simatic.PLCLoader.CLI --configuration Release --output ./bin --runtime win-x64 --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "sld": "./bin/sld.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/simatic/plc-loader"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-plc-loader": "0.11.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.App.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.Simatic.DebugInfo.Access.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.GenericTaskHandling.dll",
+      "bin/AX.Simatic.Loadable.dll",
+      "bin/AX.Simatic.Loader.Download.dll",
+      "bin/AX.Simatic.Loader.MappingTreeOMS.dll",
+      "bin/AX.Simatic.OMS.Commons.dll",
+      "bin/AX.Simatic.OMS.Utils.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Bcl.AsyncInterfaces.dll",
+      "bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bin/Microsoft.Extensions.Configuration.Binder.dll",
+      "bin/Microsoft.Extensions.Configuration.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.Configuration.dll",
+      "bin/Microsoft.Extensions.Logging.Console.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/OMSp_managed_linux.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Simatic.OMS.dll",
+      "bin/sld.deps.json",
+      "bin/sld.dll",
+      "bin/sld.dll.config",
+      "bin/sld.exe",
+      "bin/sld.runtimeconfig.json",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/wrapper_native.dll"
+    ]
+  },
+  "@ax/stc": {
+    "name": "@ax/stc",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\stc",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/stc",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The ST compiler.",
+      "type": "generic",
+      "scripts": {
+        "build": "# dummy"
+      },
+      "_internalPackageJsonPassthrough": {
+        "optionalDependencies": {
+          "@ax/stc-win-x64": "2.4.4",
+          "@ax/stc-linux-x64": "2.4.4"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt"
+    ]
+  },
+  "@ax/apax-build": {
+    "name": "@ax/apax-build",
+    "version": "0.4.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\apax-build",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/apax-build",
+      "version": "0.4.1",
+      "author": "Siemens AG",
+      "description": "Provides the functionality for the `apax build` command.",
+      "type": "generic",
+      "files": [
+        "bin",
+        "dist",
+        "THIRD_PARTY_*"
+      ],
+      "_internalPackageJsonPassthrough": {
+        "bin": "bin/cli.js",
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/apax/apax-build"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-apax-build": "0.4.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/cli.js",
+      "dist/index.js",
+      "dist/index.js.map"
+    ]
+  },
+  "@ax/third-party-licenses-st-compiler": {
+    "name": "@ax/third-party-licenses-st-compiler",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\third-party-licenses-st-compiler",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/third-party-licenses-st-compiler",
+      "version": "2.4.4",
+      "type": "generic",
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_SOURCES.tgz"
+    ]
+  },
+  "@ax/target-llvm-win-x64": {
+    "name": "@ax/target-llvm-win-x64",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\target-llvm-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/target-llvm-win-x64",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the LLVM target backend. Do not reference this package directly, use @ax/target-llvm instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/AX.Target.LLVM.CLI.BackendPlugin -o bin -r win-x64 -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.IoAbstraction.dll",
+      "bin/AX.ST.Compiler.BackendPlugin.Itf.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Target.LLVM.CLI.BackendPlugin.deps.json",
+      "bin/AX.Target.LLVM.CLI.BackendPlugin.dll",
+      "bin/AX.Target.LLVM.dll",
+      "bin/AX.Text.dll",
+      "bin/ICSharpCode.SharpZipLib.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/libLLVM.dll",
+      "bin/LLVMSharp.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.ComponentModel.Composition.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll"
+    ]
+  },
+  "@ax/target-mc7plus-win-x64": {
+    "name": "@ax/target-mc7plus-win-x64",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\target-mc7plus-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/target-mc7plus-win-x64",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the MC7plus target backend. Do not reference this package directly, use @ax/target-mc7plus instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/AX.Target.MC7plus.CLI.BackendPlugin -o bin -r win-x64 -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false"
+      },
+      "_internalPackageJsonPassthrough": {
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.IoAbstraction.dll",
+      "bin/AX.MC7plus.Assembler.dll",
+      "bin/AX.MC7plus.BinaryExchange.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.Loadable.dll",
+      "bin/AX.ST.Compiler.BackendPlugin.Itf.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Target.MC7plus.CLI.BackendPlugin.deps.json",
+      "bin/AX.Target.MC7plus.CLI.BackendPlugin.dll",
+      "bin/AX.Target.MC7plus.dll",
+      "bin/AX.Text.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/ICSharpCode.SharpZipLib.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/protobuf-net.Core.dll",
+      "bin/protobuf-net.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Siemens.Simatic.Lang.MC7Codegenerator.Interop.dll",
+      "bin/Siemens.Simatic.Lang.MC7Codegenerator.native.dll",
+      "bin/Siemens.Simatic.Lang.MC7plus.External.dll",
+      "bin/Siemens.Simatic.Lang.MC7plus.Internal.dll",
+      "bin/Siemens.Simatic.Lang.PlusOptimizer.Interop.dll",
+      "bin/Siemens.Simatic.Lang.PlusOptimizer.native.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.ComponentModel.Composition.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll"
+    ]
+  },
+  "@ax/axunit-runner-llvm-win-x64": {
+    "name": "@ax/axunit-runner-llvm-win-x64",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-runner-llvm-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-runner-llvm-win-x64",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The AxUnit Target. Do not reference this package directly, use @ax/axunit-runner-llvm instead.",
+      "type": "generic",
+      "scripts": {
+        "build": [
+          "dotnet publish ../../src/LLVM.Runner.CliPlugin -o bin -r win-x64 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false",
+          "dotnet publish ../../src/AxUnit.Runner -o bin -r win-x64 -f netcoreapp3.1 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false",
+          "rm bin/*.deps.json"
+        ]
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "axunit.runner.llvm": "bin/AxUnit.Runner.exe",
+          "axunit-runner-llvm": "bin/AxUnit.Runner.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "bin/Antlr4.Runtime.Standard.dll",
+      "bin/api-ms-win-core-console-l1-1-0.dll",
+      "bin/api-ms-win-core-datetime-l1-1-0.dll",
+      "bin/api-ms-win-core-debug-l1-1-0.dll",
+      "bin/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bin/api-ms-win-core-file-l1-1-0.dll",
+      "bin/api-ms-win-core-file-l1-2-0.dll",
+      "bin/api-ms-win-core-file-l2-1-0.dll",
+      "bin/api-ms-win-core-handle-l1-1-0.dll",
+      "bin/api-ms-win-core-heap-l1-1-0.dll",
+      "bin/api-ms-win-core-interlocked-l1-1-0.dll",
+      "bin/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bin/api-ms-win-core-localization-l1-2-0.dll",
+      "bin/api-ms-win-core-memory-l1-1-0.dll",
+      "bin/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bin/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bin/api-ms-win-core-processthreads-l1-1-0.dll",
+      "bin/api-ms-win-core-processthreads-l1-1-1.dll",
+      "bin/api-ms-win-core-profile-l1-1-0.dll",
+      "bin/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bin/api-ms-win-core-string-l1-1-0.dll",
+      "bin/api-ms-win-core-synch-l1-1-0.dll",
+      "bin/api-ms-win-core-synch-l1-2-0.dll",
+      "bin/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bin/api-ms-win-core-timezone-l1-1-0.dll",
+      "bin/api-ms-win-core-util-l1-1-0.dll",
+      "bin/api-ms-win-crt-conio-l1-1-0.dll",
+      "bin/api-ms-win-crt-convert-l1-1-0.dll",
+      "bin/api-ms-win-crt-environment-l1-1-0.dll",
+      "bin/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bin/api-ms-win-crt-heap-l1-1-0.dll",
+      "bin/api-ms-win-crt-locale-l1-1-0.dll",
+      "bin/api-ms-win-crt-math-l1-1-0.dll",
+      "bin/api-ms-win-crt-multibyte-l1-1-0.dll",
+      "bin/api-ms-win-crt-private-l1-1-0.dll",
+      "bin/api-ms-win-crt-process-l1-1-0.dll",
+      "bin/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bin/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bin/api-ms-win-crt-string-l1-1-0.dll",
+      "bin/api-ms-win-crt-time-l1-1-0.dll",
+      "bin/api-ms-win-crt-utility-l1-1-0.dll",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.IoAbstraction.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.ST.Compiler.dll",
+      "bin/AX.ST.Semantic.dll",
+      "bin/AX.ST.Syntax.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/AxUnit.Analyzer.dll",
+      "bin/AxUnit.Runner.Cli.Itf.dll",
+      "bin/AxUnit.Runner.Core.dll",
+      "bin/AxUnit.Runner.dll",
+      "bin/AxUnit.Runner.dll.config",
+      "bin/AxUnit.Runner.exe",
+      "bin/AxUnit.Runner.runtimeconfig.json",
+      "bin/clrcompression.dll",
+      "bin/clretwrc.dll",
+      "bin/clrjit.dll",
+      "bin/Colorful.Console.dll",
+      "bin/coreclr.dll",
+      "bin/dbgshim.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/hostfxr.dll",
+      "bin/hostpolicy.dll",
+      "bin/ICSharpCode.SharpZipLib.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/libLLVM.dll",
+      "bin/libsodium.dll",
+      "bin/LLVM.Runner.CliPlugin.dll",
+      "bin/LLVM.Runner.dll",
+      "bin/LLVMSharp.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Bcl.AsyncInterfaces.dll",
+      "bin/Microsoft.CSharp.dll",
+      "bin/Microsoft.DiaSymReader.Native.amd64.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/Microsoft.VisualBasic.Core.dll",
+      "bin/Microsoft.VisualBasic.dll",
+      "bin/Microsoft.Win32.Primitives.dll",
+      "bin/Microsoft.Win32.Registry.dll",
+      "bin/mscordaccore.dll",
+      "bin/mscordaccore_amd64_amd64_4.700.21.56803.dll",
+      "bin/mscordbi.dll",
+      "bin/mscorlib.dll",
+      "bin/mscorrc.debug.dll",
+      "bin/mscorrc.dll",
+      "bin/netstandard.dll",
+      "bin/ProcessTools.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Sodium.Core.dll",
+      "bin/SOS_README.md",
+      "bin/System.AppContext.dll",
+      "bin/System.Buffers.dll",
+      "bin/System.Collections.Concurrent.dll",
+      "bin/System.Collections.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.Collections.NonGeneric.dll",
+      "bin/System.Collections.Specialized.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.ComponentModel.DataAnnotations.dll",
+      "bin/System.ComponentModel.dll",
+      "bin/System.ComponentModel.EventBasedAsync.dll",
+      "bin/System.ComponentModel.Primitives.dll",
+      "bin/System.ComponentModel.TypeConverter.dll",
+      "bin/System.Configuration.dll",
+      "bin/System.Console.dll",
+      "bin/System.Core.dll",
+      "bin/System.Data.Common.dll",
+      "bin/System.Data.DataSetExtensions.dll",
+      "bin/System.Data.dll",
+      "bin/System.Diagnostics.Contracts.dll",
+      "bin/System.Diagnostics.Debug.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Diagnostics.FileVersionInfo.dll",
+      "bin/System.Diagnostics.Process.dll",
+      "bin/System.Diagnostics.StackTrace.dll",
+      "bin/System.Diagnostics.TextWriterTraceListener.dll",
+      "bin/System.Diagnostics.Tools.dll",
+      "bin/System.Diagnostics.TraceSource.dll",
+      "bin/System.Diagnostics.Tracing.dll",
+      "bin/System.dll",
+      "bin/System.Drawing.dll",
+      "bin/System.Drawing.Primitives.dll",
+      "bin/System.Dynamic.Runtime.dll",
+      "bin/System.Globalization.Calendars.dll",
+      "bin/System.Globalization.dll",
+      "bin/System.Globalization.Extensions.dll",
+      "bin/System.IO.Compression.Brotli.dll",
+      "bin/System.IO.Compression.dll",
+      "bin/System.IO.Compression.FileSystem.dll",
+      "bin/System.IO.Compression.ZipFile.dll",
+      "bin/System.IO.dll",
+      "bin/System.IO.FileSystem.AccessControl.dll",
+      "bin/System.IO.FileSystem.dll",
+      "bin/System.IO.FileSystem.DriveInfo.dll",
+      "bin/System.IO.FileSystem.Primitives.dll",
+      "bin/System.IO.FileSystem.Watcher.dll",
+      "bin/System.IO.IsolatedStorage.dll",
+      "bin/System.IO.MemoryMappedFiles.dll",
+      "bin/System.IO.Pipes.AccessControl.dll",
+      "bin/System.IO.Pipes.dll",
+      "bin/System.IO.UnmanagedMemoryStream.dll",
+      "bin/System.Linq.dll",
+      "bin/System.Linq.Expressions.dll",
+      "bin/System.Linq.Parallel.dll",
+      "bin/System.Linq.Queryable.dll",
+      "bin/System.Memory.dll",
+      "bin/System.Net.dll",
+      "bin/System.Net.Http.dll",
+      "bin/System.Net.HttpListener.dll",
+      "bin/System.Net.Mail.dll",
+      "bin/System.Net.NameResolution.dll",
+      "bin/System.Net.NetworkInformation.dll",
+      "bin/System.Net.Ping.dll",
+      "bin/System.Net.Primitives.dll",
+      "bin/System.Net.Requests.dll",
+      "bin/System.Net.Security.dll",
+      "bin/System.Net.ServicePoint.dll",
+      "bin/System.Net.Sockets.dll",
+      "bin/System.Net.WebClient.dll",
+      "bin/System.Net.WebHeaderCollection.dll",
+      "bin/System.Net.WebProxy.dll",
+      "bin/System.Net.WebSockets.Client.dll",
+      "bin/System.Net.WebSockets.dll",
+      "bin/System.Numerics.dll",
+      "bin/System.Numerics.Vectors.dll",
+      "bin/System.ObjectModel.dll",
+      "bin/System.Private.CoreLib.dll",
+      "bin/System.Private.DataContractSerialization.dll",
+      "bin/System.Private.Uri.dll",
+      "bin/System.Private.Xml.dll",
+      "bin/System.Private.Xml.Linq.dll",
+      "bin/System.Reflection.DispatchProxy.dll",
+      "bin/System.Reflection.dll",
+      "bin/System.Reflection.Emit.dll",
+      "bin/System.Reflection.Emit.ILGeneration.dll",
+      "bin/System.Reflection.Emit.Lightweight.dll",
+      "bin/System.Reflection.Extensions.dll",
+      "bin/System.Reflection.Metadata.dll",
+      "bin/System.Reflection.Primitives.dll",
+      "bin/System.Reflection.TypeExtensions.dll",
+      "bin/System.Resources.Reader.dll",
+      "bin/System.Resources.ResourceManager.dll",
+      "bin/System.Resources.Writer.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Runtime.CompilerServices.VisualC.dll",
+      "bin/System.Runtime.dll",
+      "bin/System.Runtime.Extensions.dll",
+      "bin/System.Runtime.Handles.dll",
+      "bin/System.Runtime.InteropServices.dll",
+      "bin/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "bin/System.Runtime.InteropServices.WindowsRuntime.dll",
+      "bin/System.Runtime.Intrinsics.dll",
+      "bin/System.Runtime.Loader.dll",
+      "bin/System.Runtime.Numerics.dll",
+      "bin/System.Runtime.Serialization.dll",
+      "bin/System.Runtime.Serialization.Formatters.dll",
+      "bin/System.Runtime.Serialization.Json.dll",
+      "bin/System.Runtime.Serialization.Primitives.dll",
+      "bin/System.Runtime.Serialization.Xml.dll",
+      "bin/System.Runtime.WindowsRuntime.dll",
+      "bin/System.Runtime.WindowsRuntime.UI.Xaml.dll",
+      "bin/System.Security.AccessControl.dll",
+      "bin/System.Security.Claims.dll",
+      "bin/System.Security.Cryptography.Algorithms.dll",
+      "bin/System.Security.Cryptography.Cng.dll",
+      "bin/System.Security.Cryptography.Csp.dll",
+      "bin/System.Security.Cryptography.Encoding.dll",
+      "bin/System.Security.Cryptography.OpenSsl.dll",
+      "bin/System.Security.Cryptography.Pkcs.dll",
+      "bin/System.Security.Cryptography.Primitives.dll",
+      "bin/System.Security.Cryptography.X509Certificates.dll",
+      "bin/System.Security.dll",
+      "bin/System.Security.Principal.dll",
+      "bin/System.Security.Principal.Windows.dll",
+      "bin/System.Security.SecureString.dll",
+      "bin/System.ServiceModel.Web.dll",
+      "bin/System.ServiceProcess.dll",
+      "bin/System.Text.Encoding.CodePages.dll",
+      "bin/System.Text.Encoding.dll",
+      "bin/System.Text.Encoding.Extensions.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/System.Text.RegularExpressions.dll",
+      "bin/System.Threading.Channels.dll",
+      "bin/System.Threading.dll",
+      "bin/System.Threading.Overlapped.dll",
+      "bin/System.Threading.Tasks.Dataflow.dll",
+      "bin/System.Threading.Tasks.dll",
+      "bin/System.Threading.Tasks.Extensions.dll",
+      "bin/System.Threading.Tasks.Parallel.dll",
+      "bin/System.Threading.Thread.dll",
+      "bin/System.Threading.ThreadPool.dll",
+      "bin/System.Threading.Timer.dll",
+      "bin/System.Transactions.dll",
+      "bin/System.Transactions.Local.dll",
+      "bin/System.ValueTuple.dll",
+      "bin/System.Web.dll",
+      "bin/System.Web.HttpUtility.dll",
+      "bin/System.Windows.dll",
+      "bin/System.Xml.dll",
+      "bin/System.Xml.Linq.dll",
+      "bin/System.Xml.ReaderWriter.dll",
+      "bin/System.Xml.Serialization.dll",
+      "bin/System.Xml.XDocument.dll",
+      "bin/System.Xml.XmlDocument.dll",
+      "bin/System.Xml.XmlSerializer.dll",
+      "bin/System.Xml.XPath.dll",
+      "bin/System.Xml.XPath.XDocument.dll",
+      "bin/ucrtbase.dll",
+      "bin/WindowsBase.dll",
+      "bin/Assets/TestCasesMetaInfo.xsd"
+    ]
+  },
+  "@ax/axunit-runner-mc7plus-win-x64": {
+    "name": "@ax/axunit-runner-mc7plus-win-x64",
+    "version": "1.5.4647",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\axunit-runner-mc7plus-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/axunit-runner-mc7plus-win-x64",
+      "version": "1.5.4647",
+      "author": "Siemens AG",
+      "description": "The Win(x64) version of AxUnit MC7Plus Runner. Do not reference this package directly, use @ax/axunit-runner-mc7plus instead.",
+      "type": "generic",
+      "scripts": {
+        "build": [
+          "dotnet publish ../../src/MC7plus.Runner.CliPlugin -o bin -r win-x64 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false",
+          "dotnet publish ../../src/AxUnit.Runner -o bin -r win-x64 -f netcoreapp3.1 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false",
+          "rm bin/*.deps.json"
+        ]
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "axunit.runner.mc7plus": "bin/AxUnit.Runner.exe",
+          "axunit-runner-mc7plus": "bin/AxUnit.Runner.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/testing/testingframework"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "bin/Antlr4.Runtime.Standard.dll",
+      "bin/api-ms-win-core-console-l1-1-0.dll",
+      "bin/api-ms-win-core-datetime-l1-1-0.dll",
+      "bin/api-ms-win-core-debug-l1-1-0.dll",
+      "bin/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bin/api-ms-win-core-file-l1-1-0.dll",
+      "bin/api-ms-win-core-file-l1-2-0.dll",
+      "bin/api-ms-win-core-file-l2-1-0.dll",
+      "bin/api-ms-win-core-handle-l1-1-0.dll",
+      "bin/api-ms-win-core-heap-l1-1-0.dll",
+      "bin/api-ms-win-core-interlocked-l1-1-0.dll",
+      "bin/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bin/api-ms-win-core-localization-l1-2-0.dll",
+      "bin/api-ms-win-core-memory-l1-1-0.dll",
+      "bin/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bin/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bin/api-ms-win-core-processthreads-l1-1-0.dll",
+      "bin/api-ms-win-core-processthreads-l1-1-1.dll",
+      "bin/api-ms-win-core-profile-l1-1-0.dll",
+      "bin/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bin/api-ms-win-core-string-l1-1-0.dll",
+      "bin/api-ms-win-core-synch-l1-1-0.dll",
+      "bin/api-ms-win-core-synch-l1-2-0.dll",
+      "bin/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bin/api-ms-win-core-timezone-l1-1-0.dll",
+      "bin/api-ms-win-core-util-l1-1-0.dll",
+      "bin/api-ms-win-crt-conio-l1-1-0.dll",
+      "bin/api-ms-win-crt-convert-l1-1-0.dll",
+      "bin/api-ms-win-crt-environment-l1-1-0.dll",
+      "bin/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bin/api-ms-win-crt-heap-l1-1-0.dll",
+      "bin/api-ms-win-crt-locale-l1-1-0.dll",
+      "bin/api-ms-win-crt-math-l1-1-0.dll",
+      "bin/api-ms-win-crt-multibyte-l1-1-0.dll",
+      "bin/api-ms-win-crt-private-l1-1-0.dll",
+      "bin/api-ms-win-crt-process-l1-1-0.dll",
+      "bin/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bin/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bin/api-ms-win-crt-string-l1-1-0.dll",
+      "bin/api-ms-win-crt-time-l1-1-0.dll",
+      "bin/api-ms-win-crt-utility-l1-1-0.dll",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.IoAbstraction.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.Simatic.Debug.Implementation.dll",
+      "bin/AX.Simatic.DebugInfo.Access.dll",
+      "bin/AX.Simatic.DebugInfo.dll",
+      "bin/AX.Simatic.GenericTaskHandling.dll",
+      "bin/AX.Simatic.Loadable.dll",
+      "bin/AX.Simatic.Loader.Download.dll",
+      "bin/AX.Simatic.Loader.MappingTreeOMS.dll",
+      "bin/AX.Simatic.Monitor.dll",
+      "bin/AX.Simatic.Monitor.Output.dll",
+      "bin/AX.Simatic.OMS.Commons.dll",
+      "bin/AX.Simatic.OMS.Utils.dll",
+      "bin/AX.ST.Compiler.dll",
+      "bin/AX.ST.Semantic.dll",
+      "bin/AX.ST.Syntax.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/AxUnit.Analyzer.dll",
+      "bin/AxUnit.Runner.Cli.Itf.dll",
+      "bin/AxUnit.Runner.Core.dll",
+      "bin/AxUnit.Runner.dll",
+      "bin/AxUnit.Runner.dll.config",
+      "bin/AxUnit.Runner.exe",
+      "bin/AxUnit.Runner.runtimeconfig.json",
+      "bin/clrcompression.dll",
+      "bin/clretwrc.dll",
+      "bin/clrjit.dll",
+      "bin/Colorful.Console.dll",
+      "bin/coreclr.dll",
+      "bin/CsvHelper.dll",
+      "bin/dbgshim.dll",
+      "bin/Glob.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/hostfxr.dll",
+      "bin/hostpolicy.dll",
+      "bin/ICSharpCode.SharpZipLib.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/libsodium.dll",
+      "bin/MC7plus.Runner.CliPlugin.dll",
+      "bin/MC7Plus.Runner.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Bcl.AsyncInterfaces.dll",
+      "bin/Microsoft.CSharp.dll",
+      "bin/Microsoft.DiaSymReader.Native.amd64.dll",
+      "bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bin/Microsoft.Extensions.Configuration.Binder.dll",
+      "bin/Microsoft.Extensions.Configuration.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.Configuration.dll",
+      "bin/Microsoft.Extensions.Logging.Console.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/Microsoft.VisualBasic.Core.dll",
+      "bin/Microsoft.VisualBasic.dll",
+      "bin/Microsoft.Win32.Primitives.dll",
+      "bin/Microsoft.Win32.Registry.dll",
+      "bin/mon.dll",
+      "bin/mscordaccore.dll",
+      "bin/mscordaccore_amd64_amd64_4.700.21.56803.dll",
+      "bin/mscordbi.dll",
+      "bin/mscorlib.dll",
+      "bin/mscorrc.debug.dll",
+      "bin/mscorrc.dll",
+      "bin/netstandard.dll",
+      "bin/OMSp_managed_linux.dll",
+      "bin/ProcessTools.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/Simatic.Debug.CLI.Commons.dll",
+      "bin/Simatic.OMS.dll",
+      "bin/sld.dll",
+      "bin/Sodium.Core.dll",
+      "bin/SOS_README.md",
+      "bin/System.AppContext.dll",
+      "bin/System.Buffers.dll",
+      "bin/System.Collections.Concurrent.dll",
+      "bin/System.Collections.dll",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.Collections.NonGeneric.dll",
+      "bin/System.Collections.Specialized.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.ComponentModel.DataAnnotations.dll",
+      "bin/System.ComponentModel.dll",
+      "bin/System.ComponentModel.EventBasedAsync.dll",
+      "bin/System.ComponentModel.Primitives.dll",
+      "bin/System.ComponentModel.TypeConverter.dll",
+      "bin/System.Configuration.dll",
+      "bin/System.Console.dll",
+      "bin/System.Core.dll",
+      "bin/System.Data.Common.dll",
+      "bin/System.Data.DataSetExtensions.dll",
+      "bin/System.Data.dll",
+      "bin/System.Diagnostics.Contracts.dll",
+      "bin/System.Diagnostics.Debug.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Diagnostics.FileVersionInfo.dll",
+      "bin/System.Diagnostics.Process.dll",
+      "bin/System.Diagnostics.StackTrace.dll",
+      "bin/System.Diagnostics.TextWriterTraceListener.dll",
+      "bin/System.Diagnostics.Tools.dll",
+      "bin/System.Diagnostics.TraceSource.dll",
+      "bin/System.Diagnostics.Tracing.dll",
+      "bin/System.dll",
+      "bin/System.Drawing.dll",
+      "bin/System.Drawing.Primitives.dll",
+      "bin/System.Dynamic.Runtime.dll",
+      "bin/System.Globalization.Calendars.dll",
+      "bin/System.Globalization.dll",
+      "bin/System.Globalization.Extensions.dll",
+      "bin/System.IO.Abstractions.dll",
+      "bin/System.IO.Abstractions.TestingHelpers.dll",
+      "bin/System.IO.Compression.Brotli.dll",
+      "bin/System.IO.Compression.dll",
+      "bin/System.IO.Compression.FileSystem.dll",
+      "bin/System.IO.Compression.ZipFile.dll",
+      "bin/System.IO.dll",
+      "bin/System.IO.FileSystem.AccessControl.dll",
+      "bin/System.IO.FileSystem.dll",
+      "bin/System.IO.FileSystem.DriveInfo.dll",
+      "bin/System.IO.FileSystem.Primitives.dll",
+      "bin/System.IO.FileSystem.Watcher.dll",
+      "bin/System.IO.IsolatedStorage.dll",
+      "bin/System.IO.MemoryMappedFiles.dll",
+      "bin/System.IO.Pipes.AccessControl.dll",
+      "bin/System.IO.Pipes.dll",
+      "bin/System.IO.UnmanagedMemoryStream.dll",
+      "bin/System.Linq.dll",
+      "bin/System.Linq.Expressions.dll",
+      "bin/System.Linq.Parallel.dll",
+      "bin/System.Linq.Queryable.dll",
+      "bin/System.Memory.dll",
+      "bin/System.Net.dll",
+      "bin/System.Net.Http.dll",
+      "bin/System.Net.HttpListener.dll",
+      "bin/System.Net.Mail.dll",
+      "bin/System.Net.NameResolution.dll",
+      "bin/System.Net.NetworkInformation.dll",
+      "bin/System.Net.Ping.dll",
+      "bin/System.Net.Primitives.dll",
+      "bin/System.Net.Requests.dll",
+      "bin/System.Net.Security.dll",
+      "bin/System.Net.ServicePoint.dll",
+      "bin/System.Net.Sockets.dll",
+      "bin/System.Net.WebClient.dll",
+      "bin/System.Net.WebHeaderCollection.dll",
+      "bin/System.Net.WebProxy.dll",
+      "bin/System.Net.WebSockets.Client.dll",
+      "bin/System.Net.WebSockets.dll",
+      "bin/System.Numerics.dll",
+      "bin/System.Numerics.Vectors.dll",
+      "bin/System.ObjectModel.dll",
+      "bin/System.Private.CoreLib.dll",
+      "bin/System.Private.DataContractSerialization.dll",
+      "bin/System.Private.Uri.dll",
+      "bin/System.Private.Xml.dll",
+      "bin/System.Private.Xml.Linq.dll",
+      "bin/System.Reflection.DispatchProxy.dll",
+      "bin/System.Reflection.dll",
+      "bin/System.Reflection.Emit.dll",
+      "bin/System.Reflection.Emit.ILGeneration.dll",
+      "bin/System.Reflection.Emit.Lightweight.dll",
+      "bin/System.Reflection.Extensions.dll",
+      "bin/System.Reflection.Metadata.dll",
+      "bin/System.Reflection.Primitives.dll",
+      "bin/System.Reflection.TypeExtensions.dll",
+      "bin/System.Resources.Reader.dll",
+      "bin/System.Resources.ResourceManager.dll",
+      "bin/System.Resources.Writer.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Runtime.CompilerServices.VisualC.dll",
+      "bin/System.Runtime.dll",
+      "bin/System.Runtime.Extensions.dll",
+      "bin/System.Runtime.Handles.dll",
+      "bin/System.Runtime.InteropServices.dll",
+      "bin/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "bin/System.Runtime.InteropServices.WindowsRuntime.dll",
+      "bin/System.Runtime.Intrinsics.dll",
+      "bin/System.Runtime.Loader.dll",
+      "bin/System.Runtime.Numerics.dll",
+      "bin/System.Runtime.Serialization.dll",
+      "bin/System.Runtime.Serialization.Formatters.dll",
+      "bin/System.Runtime.Serialization.Json.dll",
+      "bin/System.Runtime.Serialization.Primitives.dll",
+      "bin/System.Runtime.Serialization.Xml.dll",
+      "bin/System.Runtime.WindowsRuntime.dll",
+      "bin/System.Runtime.WindowsRuntime.UI.Xaml.dll",
+      "bin/System.Security.AccessControl.dll",
+      "bin/System.Security.Claims.dll",
+      "bin/System.Security.Cryptography.Algorithms.dll",
+      "bin/System.Security.Cryptography.Cng.dll",
+      "bin/System.Security.Cryptography.Csp.dll",
+      "bin/System.Security.Cryptography.Encoding.dll",
+      "bin/System.Security.Cryptography.OpenSsl.dll",
+      "bin/System.Security.Cryptography.Pkcs.dll",
+      "bin/System.Security.Cryptography.Primitives.dll",
+      "bin/System.Security.Cryptography.X509Certificates.dll",
+      "bin/System.Security.dll",
+      "bin/System.Security.Principal.dll",
+      "bin/System.Security.Principal.Windows.dll",
+      "bin/System.Security.SecureString.dll",
+      "bin/System.ServiceModel.Web.dll",
+      "bin/System.ServiceProcess.dll",
+      "bin/System.Text.Encoding.CodePages.dll",
+      "bin/System.Text.Encoding.dll",
+      "bin/System.Text.Encoding.Extensions.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll",
+      "bin/System.Text.RegularExpressions.dll",
+      "bin/System.Threading.Channels.dll",
+      "bin/System.Threading.dll",
+      "bin/System.Threading.Overlapped.dll",
+      "bin/System.Threading.Tasks.Dataflow.dll",
+      "bin/System.Threading.Tasks.dll",
+      "bin/System.Threading.Tasks.Extensions.dll",
+      "bin/System.Threading.Tasks.Parallel.dll",
+      "bin/System.Threading.Thread.dll",
+      "bin/System.Threading.ThreadPool.dll",
+      "bin/System.Threading.Timer.dll",
+      "bin/System.Transactions.dll",
+      "bin/System.Transactions.Local.dll",
+      "bin/System.ValueTuple.dll",
+      "bin/System.Web.dll",
+      "bin/System.Web.HttpUtility.dll",
+      "bin/System.Windows.dll",
+      "bin/System.Xml.dll",
+      "bin/System.Xml.Linq.dll",
+      "bin/System.Xml.ReaderWriter.dll",
+      "bin/System.Xml.Serialization.dll",
+      "bin/System.Xml.XDocument.dll",
+      "bin/System.Xml.XmlDocument.dll",
+      "bin/System.Xml.XmlSerializer.dll",
+      "bin/System.Xml.XPath.dll",
+      "bin/System.Xml.XPath.XDocument.dll",
+      "bin/ucrtbase.dll",
+      "bin/WindowsBase.dll",
+      "bin/wrapper_native.dll",
+      "bin/Assets/TestCasesMetaInfo.xsd"
+    ]
+  },
+  "@ax/third-party-licenses-build-native": {
+    "name": "@ax/third-party-licenses-build-native",
+    "version": "10.1.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\third-party-licenses-build-native",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/third-party-licenses-build-native",
+      "version": "10.1.1",
+      "type": "generic",
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/build-native"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_SOURCES.tgz"
+    ]
+  },
+  "@ax/build-native-winx64": {
+    "name": "@ax/build-native-winx64",
+    "version": "10.1.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\build-native-winx64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/build-native-winx64",
+      "version": "10.1.1",
+      "author": "Siemens AG",
+      "description": "tools to compile LLVM to native for winx64",
+      "type": "generic",
+      "scripts": {
+        "build": "cp ../../llvm-10.0.0-winx64/bin/clang.exe bin/\ncp -r ../../llvm-10.0.0-winx64/lib/clang lib/\ncp ../../llvm-10.0.0-winx64/bin/lld-link.exe bin/\ncp ../../compile-app/compile-app.js bin/\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "bin": {
+          "compile-native": "bin/compile-native.js",
+          "compile-app": "bin/compile-app.js",
+          "clang": "bin/clang.exe",
+          "lld-link": "bin/lld-link.exe"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/build-native"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-build-native": "10.1.1"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/clang.exe",
+      "bin/compile-app.js",
+      "bin/compile-native.js",
+      "bin/lld-link.exe",
+      "lib/clang/10.0.0/include/adxintrin.h",
+      "lib/clang/10.0.0/include/altivec.h",
+      "lib/clang/10.0.0/include/ammintrin.h",
+      "lib/clang/10.0.0/include/arm64intr.h",
+      "lib/clang/10.0.0/include/armintr.h",
+      "lib/clang/10.0.0/include/arm_acle.h",
+      "lib/clang/10.0.0/include/arm_cmse.h",
+      "lib/clang/10.0.0/include/arm_fp16.h",
+      "lib/clang/10.0.0/include/arm_mve.h",
+      "lib/clang/10.0.0/include/arm_neon.h",
+      "lib/clang/10.0.0/include/avx2intrin.h",
+      "lib/clang/10.0.0/include/avx512bf16intrin.h",
+      "lib/clang/10.0.0/include/avx512bitalgintrin.h",
+      "lib/clang/10.0.0/include/avx512bwintrin.h",
+      "lib/clang/10.0.0/include/avx512cdintrin.h",
+      "lib/clang/10.0.0/include/avx512dqintrin.h",
+      "lib/clang/10.0.0/include/avx512erintrin.h",
+      "lib/clang/10.0.0/include/avx512fintrin.h",
+      "lib/clang/10.0.0/include/avx512ifmaintrin.h",
+      "lib/clang/10.0.0/include/avx512ifmavlintrin.h",
+      "lib/clang/10.0.0/include/avx512pfintrin.h",
+      "lib/clang/10.0.0/include/avx512vbmi2intrin.h",
+      "lib/clang/10.0.0/include/avx512vbmiintrin.h",
+      "lib/clang/10.0.0/include/avx512vbmivlintrin.h",
+      "lib/clang/10.0.0/include/avx512vlbf16intrin.h",
+      "lib/clang/10.0.0/include/avx512vlbitalgintrin.h",
+      "lib/clang/10.0.0/include/avx512vlbwintrin.h",
+      "lib/clang/10.0.0/include/avx512vlcdintrin.h",
+      "lib/clang/10.0.0/include/avx512vldqintrin.h",
+      "lib/clang/10.0.0/include/avx512vlintrin.h",
+      "lib/clang/10.0.0/include/avx512vlvbmi2intrin.h",
+      "lib/clang/10.0.0/include/avx512vlvnniintrin.h",
+      "lib/clang/10.0.0/include/avx512vlvp2intersectintrin.h",
+      "lib/clang/10.0.0/include/avx512vnniintrin.h",
+      "lib/clang/10.0.0/include/avx512vp2intersectintrin.h",
+      "lib/clang/10.0.0/include/avx512vpopcntdqintrin.h",
+      "lib/clang/10.0.0/include/avx512vpopcntdqvlintrin.h",
+      "lib/clang/10.0.0/include/avxintrin.h",
+      "lib/clang/10.0.0/include/bmi2intrin.h",
+      "lib/clang/10.0.0/include/bmiintrin.h",
+      "lib/clang/10.0.0/include/cetintrin.h",
+      "lib/clang/10.0.0/include/cldemoteintrin.h",
+      "lib/clang/10.0.0/include/clflushoptintrin.h",
+      "lib/clang/10.0.0/include/clwbintrin.h",
+      "lib/clang/10.0.0/include/clzerointrin.h",
+      "lib/clang/10.0.0/include/cpuid.h",
+      "lib/clang/10.0.0/include/emmintrin.h",
+      "lib/clang/10.0.0/include/enqcmdintrin.h",
+      "lib/clang/10.0.0/include/f16cintrin.h",
+      "lib/clang/10.0.0/include/float.h",
+      "lib/clang/10.0.0/include/fma4intrin.h",
+      "lib/clang/10.0.0/include/fmaintrin.h",
+      "lib/clang/10.0.0/include/fxsrintrin.h",
+      "lib/clang/10.0.0/include/gfniintrin.h",
+      "lib/clang/10.0.0/include/htmintrin.h",
+      "lib/clang/10.0.0/include/htmxlintrin.h",
+      "lib/clang/10.0.0/include/ia32intrin.h",
+      "lib/clang/10.0.0/include/immintrin.h",
+      "lib/clang/10.0.0/include/intrin.h",
+      "lib/clang/10.0.0/include/inttypes.h",
+      "lib/clang/10.0.0/include/invpcidintrin.h",
+      "lib/clang/10.0.0/include/iso646.h",
+      "lib/clang/10.0.0/include/limits.h",
+      "lib/clang/10.0.0/include/lwpintrin.h",
+      "lib/clang/10.0.0/include/lzcntintrin.h",
+      "lib/clang/10.0.0/include/mm3dnow.h",
+      "lib/clang/10.0.0/include/mmintrin.h",
+      "lib/clang/10.0.0/include/mm_malloc.h",
+      "lib/clang/10.0.0/include/module.modulemap",
+      "lib/clang/10.0.0/include/movdirintrin.h",
+      "lib/clang/10.0.0/include/msa.h",
+      "lib/clang/10.0.0/include/mwaitxintrin.h",
+      "lib/clang/10.0.0/include/nmmintrin.h",
+      "lib/clang/10.0.0/include/omp.h",
+      "lib/clang/10.0.0/include/opencl-c-base.h",
+      "lib/clang/10.0.0/include/opencl-c.h",
+      "lib/clang/10.0.0/include/pconfigintrin.h",
+      "lib/clang/10.0.0/include/pkuintrin.h",
+      "lib/clang/10.0.0/include/pmmintrin.h",
+      "lib/clang/10.0.0/include/popcntintrin.h",
+      "lib/clang/10.0.0/include/prfchwintrin.h",
+      "lib/clang/10.0.0/include/ptwriteintrin.h",
+      "lib/clang/10.0.0/include/rdseedintrin.h",
+      "lib/clang/10.0.0/include/rtmintrin.h",
+      "lib/clang/10.0.0/include/s390intrin.h",
+      "lib/clang/10.0.0/include/sgxintrin.h",
+      "lib/clang/10.0.0/include/shaintrin.h",
+      "lib/clang/10.0.0/include/smmintrin.h",
+      "lib/clang/10.0.0/include/stdalign.h",
+      "lib/clang/10.0.0/include/stdarg.h",
+      "lib/clang/10.0.0/include/stdatomic.h",
+      "lib/clang/10.0.0/include/stdbool.h",
+      "lib/clang/10.0.0/include/stddef.h",
+      "lib/clang/10.0.0/include/stdint.h",
+      "lib/clang/10.0.0/include/stdnoreturn.h",
+      "lib/clang/10.0.0/include/tbmintrin.h",
+      "lib/clang/10.0.0/include/tgmath.h",
+      "lib/clang/10.0.0/include/tmmintrin.h",
+      "lib/clang/10.0.0/include/unwind.h",
+      "lib/clang/10.0.0/include/vadefs.h",
+      "lib/clang/10.0.0/include/vaesintrin.h",
+      "lib/clang/10.0.0/include/varargs.h",
+      "lib/clang/10.0.0/include/vecintrin.h",
+      "lib/clang/10.0.0/include/vpclmulqdqintrin.h",
+      "lib/clang/10.0.0/include/waitpkgintrin.h",
+      "lib/clang/10.0.0/include/wbnoinvdintrin.h",
+      "lib/clang/10.0.0/include/wmmintrin.h",
+      "lib/clang/10.0.0/include/x86intrin.h",
+      "lib/clang/10.0.0/include/xmmintrin.h",
+      "lib/clang/10.0.0/include/xopintrin.h",
+      "lib/clang/10.0.0/include/xsavecintrin.h",
+      "lib/clang/10.0.0/include/xsaveintrin.h",
+      "lib/clang/10.0.0/include/xsaveoptintrin.h",
+      "lib/clang/10.0.0/include/xsavesintrin.h",
+      "lib/clang/10.0.0/include/xtestintrin.h",
+      "lib/clang/10.0.0/include/__clang_cuda_builtin_vars.h",
+      "lib/clang/10.0.0/include/__clang_cuda_cmath.h",
+      "lib/clang/10.0.0/include/__clang_cuda_complex_builtins.h",
+      "lib/clang/10.0.0/include/__clang_cuda_device_functions.h",
+      "lib/clang/10.0.0/include/__clang_cuda_intrinsics.h",
+      "lib/clang/10.0.0/include/__clang_cuda_libdevice_declares.h",
+      "lib/clang/10.0.0/include/__clang_cuda_math_forward_declares.h",
+      "lib/clang/10.0.0/include/__clang_cuda_runtime_wrapper.h",
+      "lib/clang/10.0.0/include/__stddef_max_align_t.h",
+      "lib/clang/10.0.0/include/__wmmintrin_aes.h",
+      "lib/clang/10.0.0/include/__wmmintrin_pclmul.h",
+      "lib/clang/10.0.0/share/asan_blacklist.txt",
+      "lib/clang/10.0.0/share/cfi_blacklist.txt",
+      "lib/clang/10.0.0/include/cuda_wrappers/algorithm",
+      "lib/clang/10.0.0/include/cuda_wrappers/complex",
+      "lib/clang/10.0.0/include/cuda_wrappers/new",
+      "lib/clang/10.0.0/include/fuzzer/FuzzedDataProvider.h",
+      "lib/clang/10.0.0/include/openmp_wrappers/cmath",
+      "lib/clang/10.0.0/include/openmp_wrappers/math.h",
+      "lib/clang/10.0.0/include/openmp_wrappers/__clang_openmp_math.h",
+      "lib/clang/10.0.0/include/openmp_wrappers/__clang_openmp_math_declares.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/emmintrin.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/mmintrin.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/mm_malloc.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/pmmintrin.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/smmintrin.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/tmmintrin.h",
+      "lib/clang/10.0.0/include/ppc_wrappers/xmmintrin.h",
+      "lib/clang/10.0.0/include/profile/InstrProfData.inc",
+      "lib/clang/10.0.0/include/sanitizer/allocator_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/asan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/common_interface_defs.h",
+      "lib/clang/10.0.0/include/sanitizer/coverage_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/dfsan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/hwasan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/linux_syscall_hooks.h",
+      "lib/clang/10.0.0/include/sanitizer/lsan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/msan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/netbsd_syscall_hooks.h",
+      "lib/clang/10.0.0/include/sanitizer/scudo_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/tsan_interface.h",
+      "lib/clang/10.0.0/include/sanitizer/tsan_interface_atomic.h",
+      "lib/clang/10.0.0/include/sanitizer/ubsan_interface.h",
+      "lib/clang/10.0.0/include/xray/xray_interface.h",
+      "lib/clang/10.0.0/include/xray/xray_log_interface.h",
+      "lib/clang/10.0.0/include/xray/xray_records.h",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan-preinit-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan_cxx-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan_dll_thunk-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan_dynamic-x86_64.dll",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan_dynamic-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.asan_dynamic_runtime_thunk-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.builtins-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.fuzzer-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.fuzzer_no_main-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.profile-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.stats-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.stats_client-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.ubsan_standalone-x86_64.lib",
+      "lib/clang/10.0.0/lib/windows/clang_rt.ubsan_standalone_cxx-x86_64.lib"
+    ]
+  },
+  "@ax/stc-win-x64": {
+    "name": "@ax/stc-win-x64",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\stc-win-x64",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/stc-win-x64",
+      "version": "2.4.4",
+      "author": "Siemens AG",
+      "description": "The Windows (x64) version of the ST compiler. Do not reference this package directly, use @ax/stc instead.",
+      "type": "generic",
+      "scripts": {
+        "build": "dotnet publish ../../src/AX.ST.Compiler.CLI -o bin -r win-x64 -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false\n"
+      },
+      "dependencies": {
+        "@ax/st-docs": "2.4.4",
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      },
+      "_internalPackageJsonPassthrough": {
+        "bin": {
+          "stc": "./bin/stc.exe"
+        },
+        "os": [
+          "win32"
+        ],
+        "cpu": [
+          "x64"
+        ],
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "bin/Antlr4.Runtime.Standard.dll",
+      "bin/AX.App.dll",
+      "bin/AX.Core.SharedCollections.dll",
+      "bin/AX.Integrity.dll",
+      "bin/AX.IoAbstraction.dll",
+      "bin/AX.Languages.Iec.Symbols.dll",
+      "bin/AX.Library.dll",
+      "bin/AX.PluginLoader.dll",
+      "bin/AX.ST.Compiler.BackendPlugin.Itf.dll",
+      "bin/AX.ST.Compiler.dll",
+      "bin/AX.ST.Compiler.dll.config",
+      "bin/AX.ST.Semantic.dll",
+      "bin/AX.ST.Syntax.dll",
+      "bin/AX.Target.Builder.Itf.dll",
+      "bin/AX.Text.dll",
+      "bin/Google.Protobuf.dll",
+      "bin/ICSharpCode.SharpZipLib.dll",
+      "bin/JetBrains.Annotations.dll",
+      "bin/McMaster.Extensions.CommandLineUtils.dll",
+      "bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bin/Microsoft.Extensions.Configuration.Binder.dll",
+      "bin/Microsoft.Extensions.Configuration.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bin/Microsoft.Extensions.DependencyInjection.dll",
+      "bin/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bin/Microsoft.Extensions.Logging.Configuration.dll",
+      "bin/Microsoft.Extensions.Logging.Console.dll",
+      "bin/Microsoft.Extensions.Logging.dll",
+      "bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bin/Microsoft.Extensions.Options.dll",
+      "bin/Microsoft.Extensions.Primitives.dll",
+      "bin/ProcessTools.dll",
+      "bin/SemanticVersioning.dll",
+      "bin/stc.deps.json",
+      "bin/stc.dll",
+      "bin/stc.dll.config",
+      "bin/stc.exe",
+      "bin/stc.runtimeconfig.json",
+      "bin/System.Collections.Immutable.dll",
+      "bin/System.ComponentModel.Annotations.dll",
+      "bin/System.Diagnostics.DiagnosticSource.dll",
+      "bin/System.Runtime.CompilerServices.Unsafe.dll",
+      "bin/System.Text.Encodings.Web.dll",
+      "bin/System.Text.Json.dll"
+    ]
+  },
+  "@ax/third-party-licenses-apax-build": {
+    "name": "@ax/third-party-licenses-apax-build",
+    "version": "0.4.1",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\third-party-licenses-apax-build",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/third-party-licenses-apax-build",
+      "version": "0.4.1",
+      "type": "generic",
+      "_internalPackageJsonPassthrough": {
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/apax/apax-build"
+        }
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "package.json",
+      "THIRD_PARTY_LICENSES.html",
+      "THIRD_PARTY_SOURCES.tgz"
+    ]
+  },
+  "@ax/st-docs": {
+    "name": "@ax/st-docs",
+    "version": "2.4.4",
+    "path": "c:\\Users\\Benedetta\\Desktop\\Utente\\my-first-app\\.apax\\packages\\@ax\\st-docs",
+    "workspace": false,
+    "dev": true,
+    "apaxYml": {
+      "name": "@ax/st-docs",
+      "version": "2.4.4",
+      "type": "generic",
+      "scripts": {
+        "build": "cp -r ../../docs .\ngrep -v _INTERNAL_ ../../CHANGELOG.md > CHANGELOG.md\nprettier --write CHANGELOG.md\n"
+      },
+      "_internalPackageJsonPassthrough": {
+        "hidden": true,
+        "repository": {
+          "type": "git",
+          "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+        }
+      },
+      "dependencies": {
+        "@ax/third-party-licenses-st-compiler": "2.4.4"
+      }
+    },
+    "files": [
+      "apax.sig",
+      "apax.yml",
+      "CHANGELOG.md",
+      "package.json",
+      "THIRD_PARTY_LICENSE_INFORMATION.txt",
+      "docs/2_cli.md",
+      "docs/_index.md",
+      "docs/1_language/03_access-modifier.md",
+      "docs/1_language/04_types-and-variables.md",
+      "docs/1_language/05_expressions.md",
+      "docs/1_language/06_statements.md",
+      "docs/1_language/07_comments.md",
+      "docs/1_language/09_syntax-reference.md",
+      "docs/1_language/index.md",
+      "docs/1_language/01_program-structure/1_configuration.md",
+      "docs/1_language/01_program-structure/2_program-organization-unit.md",
+      "docs/1_language/01_program-structure/3_namespaces.md",
+      "docs/1_language/01_program-structure/4_pou-interface.md",
+      "docs/1_language/01_program-structure/index.md",
+      "docs/1_language/02_oop/1_inheritance.md",
+      "docs/1_language/02_oop/2_interfaces.md",
+      "docs/1_language/02_oop/index.md",
+      "docs/1_language/08_target-specific-tasks/1_synchronous-tasks-tia-instructions.md",
+      "docs/1_language/08_target-specific-tasks/index.md",
+      "docs/1_language/diagrams/accessModifier.svg",
+      "docs/1_language/diagrams/arrayTypeDeclaration.svg",
+      "docs/1_language/diagrams/assignStatement.svg",
+      "docs/1_language/diagrams/calls.svg",
+      "docs/1_language/diagrams/caseStatement.svg",
+      "docs/1_language/diagrams/classDeclaration.svg",
+      "docs/1_language/diagrams/conditionalStatement.svg",
+      "docs/1_language/diagrams/configDeclaration.svg",
+      "docs/1_language/diagrams/constructs.svg",
+      "docs/1_language/diagrams/continueStatement.svg",
+      "docs/1_language/diagrams/elements.svg",
+      "docs/1_language/diagrams/enumTypeDeclaration.svg",
+      "docs/1_language/diagrams/exitStatement.svg",
+      "docs/1_language/diagrams/expression.svg",
+      "docs/1_language/diagrams/forStatement.svg",
+      "docs/1_language/diagrams/functionBlockDeclaration.svg",
+      "docs/1_language/diagrams/functionDeclaration.svg",
+      "docs/1_language/diagrams/iterationStatement.svg",
+      "docs/1_language/diagrams/jumpStatement.svg",
+      "docs/1_language/diagrams/methodDeclaration.svg",
+      "docs/1_language/diagrams/namedValueTypeDeclaration.svg",
+      "docs/1_language/diagrams/namespaceDeclaration.svg",
+      "docs/1_language/diagrams/namespaceElement.svg",
+      "docs/1_language/diagrams/progConfig.svg",
+      "docs/1_language/diagrams/programDeclaration.svg",
+      "docs/1_language/diagrams/programming.stgrammar.svg",
+      "docs/1_language/diagrams/repeatStatement.svg",
+      "docs/1_language/diagrams/returnStatement.svg",
+      "docs/1_language/diagrams/statementList.svg",
+      "docs/1_language/diagrams/structTypeDeclaration.svg",
+      "docs/1_language/diagrams/taskConfig.svg",
+      "docs/1_language/diagrams/varDeclarationSection.svg",
+      "docs/1_language/diagrams/whileStatement.svg",
+      "docs/1_language/images/partial-access-width.png",
+      "docs/1_language/images/stringstructure.jpg",
+      "docs/1_language/types/conversion-table.md",
+      "docs/1_language/types/conversion-table.png",
+      "docs/1_language/types/fullTable.png",
+      "docs/1_language/types/numeric.png",
+      "docs/1_language/types/string.png",
+      "docs/1_language/types/time.png",
+      "docs/1_language/types/types.xlsx",
+      "docs/1_language/images/synchronous-tasks-tia/ioConfig.png",
+      "docs/1_language/images/synchronous-tasks-tia/profinetNetwork.png",
+      "docs/1_language/images/synchronous-tasks-tia/selectSyncDomain.gif",
+      "docs/1_language/images/synchronous-tasks-tia/syncDomain.png"
+    ]
+  }
+}

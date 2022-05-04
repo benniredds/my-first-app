@@ -1,0 +1,17 @@
+name: "@ax/build-native"
+version: 10.1.1
+author: Siemens AG
+description: tools to compile LLVM to native for linux/winx64
+type: generic
+scripts:
+  build: "# dummy"
+_internalPackageJsonPassthrough:
+  hidden: true
+  optionalDependencies:
+    "@ax/build-native-winx64": 10.1.1
+    "@ax/build-native-linux": 10.1.1
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/languages/st/build-native
+dependencies:
+  '@ax/third-party-licenses-build-native': 10.1.1

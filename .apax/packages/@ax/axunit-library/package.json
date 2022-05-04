@@ -1,0 +1,11 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/axunit-library",
+  "version": "1.5.4647",
+  "description": "AxUnit library support for unit testing.",
+  "author": "Siemens AG"
+}

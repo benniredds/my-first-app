@@ -1,0 +1,15 @@
+name: "@ax/st-docs"
+version: 2.4.4
+type: generic
+scripts:
+  build: |
+    cp -r ../../docs .
+    grep -v _INTERNAL_ ../../CHANGELOG.md > CHANGELOG.md
+    prettier --write CHANGELOG.md
+_internalPackageJsonPassthrough:
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/languages/st/st-compiler
+dependencies:
+  '@ax/third-party-licenses-st-compiler': 2.4.4

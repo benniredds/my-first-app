@@ -1,0 +1,20 @@
+name: "@ax/diag-win-x64"
+version: 0.16.1
+author: Siemens AG
+description: The Windows (x64) version of the the SIMATIC diagnostics tool. Do not reference this package directly, use @ax/diag instead.
+type: generic
+scripts:
+  build: dotnet publish ../../src/Simatic.Diagnostics.CLI -o bin -r win-x64 -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false
+_internalPackageJsonPassthrough:
+  hidden: true
+  os:
+    - win32
+  cpu:
+    - x64
+  bin:
+    diag: ./bin/diag.exe
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/simatic/monitor
+dependencies:
+  '@ax/third-party-licenses-monitor': 0.16.1

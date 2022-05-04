@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="272" height="411" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="54" y="17" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs" class="rulecaption">statementList:</text>
+    <line x1="29" y1="39" x2="36" y2="39" />
+    <rect x="37" width="102" y="28" height="22" class="rule" />
+    <text x="88" y="42" text-anchor="middle" textLength="91" lengthAdjust="spacingAndGlyphs">statementPart</text>
+    <line x1="140" y1="39" x2="147" y2="39" />
+    <line x1="14" y1="39" x2="30" y2="39" />
+    <line x1="145" y1="39" x2="162" y2="39" />
+    <line x1="29" y1="57" x2="147" y2="57" />
+    <path d="M146,39 a5,5 0 0 1 5,5 L151,52 a5,5 0 0 1 -5,5 L145,57" />
+    <path d="M30,39 a5,5 0 0 0 -5,5 L25,52 a5,5 0 0 0 5,5" />
+    <line x1="160" y1="39" x2="167" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="166" y1="39" x2="176" y2="39" />
+    <line x1="171" y1="33" x2="171" y2="45" />
+    <line x1="176" y1="33" x2="176" y2="45" />
+    <text x="40" y="107" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs" class="rulecaption">statement:</text>
+    <line x1="53" y1="129" x2="60" y2="129" />
+    <rect x="61" width="144" y="118" height="22" class="rule" />
+    <text x="133" y="132" text-anchor="middle" textLength="133" lengthAdjust="spacingAndGlyphs">expressionStatement</text>
+    <line x1="206" y1="129" x2="213" y2="129" />
+    <line x1="67" y1="157" x2="74" y2="157" />
+    <rect x="75" width="116" y="146" height="22" class="rule" />
+    <text x="133" y="160" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs">assignStatement</text>
+    <line x1="192" y1="157" x2="199" y2="157" />
+    <line x1="29" y1="185" x2="36" y2="185" />
+    <rect x="37" width="193" y="174" height="22" class="rule" />
+    <text x="133" y="188" text-anchor="middle" textLength="182" lengthAdjust="spacingAndGlyphs">assignmentAttemptStatement</text>
+    <line x1="231" y1="185" x2="238" y2="185" />
+    <line x1="50" y1="213" x2="57" y2="213" />
+    <rect x="58" width="151" y="202" height="22" class="rule" />
+    <text x="133" y="216" text-anchor="middle" textLength="140" lengthAdjust="spacingAndGlyphs">conditionalStatement</text>
+    <line x1="210" y1="213" x2="217" y2="213" />
+    <line x1="57" y1="241" x2="64" y2="241" />
+    <rect x="65" width="137" y="230" height="22" class="rule" />
+    <text x="133" y="244" text-anchor="middle" textLength="126" lengthAdjust="spacingAndGlyphs">iterationStatement</text>
+    <line x1="203" y1="241" x2="210" y2="241" />
+    <line x1="74" y1="269" x2="81" y2="269" />
+    <rect x="82" width="102" y="258" height="22" class="rule" />
+    <text x="133" y="272" text-anchor="middle" textLength="91" lengthAdjust="spacingAndGlyphs">jumpStatement</text>
+    <line x1="185" y1="269" x2="192" y2="269" />
+    <line x1="74" y1="297" x2="81" y2="297" />
+    <rect x="82" width="102" y="286" height="22" class="rule" />
+    <text x="133" y="300" text-anchor="middle" textLength="91" lengthAdjust="spacingAndGlyphs">caseStatement</text>
+    <line x1="185" y1="297" x2="192" y2="297" />
+    <line x1="71" y1="325" x2="78" y2="325" />
+    <rect x="79" width="109" y="314" height="22" class="rule" />
+    <text x="133" y="328" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs">emptyStatement</text>
+    <line x1="189" y1="325" x2="196" y2="325" />
+    <line x1="78" y1="353" x2="85" y2="353" />
+    <rect x="86" width="95" y="342" height="22" class="rule" />
+    <text x="133" y="356" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs">asmStatement</text>
+    <line x1="182" y1="353" x2="189" y2="353" />
+    <line x1="14" y1="129" x2="54" y2="129" />
+    <line x1="211" y1="129" x2="253" y2="129" />
+    <path d="M20,129 a5,5 0 0 1 5,5 L25,348 a5,5 0 0 0 5,5 L80,353" />
+    <path d="M187,353 L237,353 a5,5 0 0 0 5,-5 L242,134 a5,5 0 0 1 5,-5" />
+    <path d="M25,152 a5,5 0 0 0 5,5 L69,157" />
+    <path d="M242,152 a5,5 0 0 1 -5,5 L197,157" />
+    <path d="M25,180 a5,5 0 0 0 5,5 L31,185" />
+    <path d="M242,180 a5,5 0 0 1 -5,5 L236,185" />
+    <path d="M25,208 a5,5 0 0 0 5,5 L52,213" />
+    <path d="M242,208 a5,5 0 0 1 -5,5 L215,213" />
+    <path d="M25,236 a5,5 0 0 0 5,5 L59,241" />
+    <path d="M242,236 a5,5 0 0 1 -5,5 L208,241" />
+    <path d="M25,264 a5,5 0 0 0 5,5 L76,269" />
+    <path d="M242,264 a5,5 0 0 1 -5,5 L190,269" />
+    <path d="M25,292 a5,5 0 0 0 5,5 L76,297" />
+    <path d="M242,292 a5,5 0 0 1 -5,5 L190,297" />
+    <path d="M25,320 a5,5 0 0 0 5,5 L73,325" />
+    <path d="M242,320 a5,5 0 0 1 -5,5 L194,325" />
+    <line x1="251" y1="129" x2="258" y2="129" />
+    <line x1="5" y1="129" x2="15" y2="129" />
+    <path d="M5, 129 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="257" y1="129" x2="267" y2="129" />
+    <line x1="262" y1="123" x2="262" y2="135" />
+    <line x1="267" y1="123" x2="267" y2="135" />
+  </g>
+</svg>

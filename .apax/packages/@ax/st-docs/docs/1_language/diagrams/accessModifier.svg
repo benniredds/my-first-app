@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="167" height="181" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="57" y="17" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs" class="rulecaption">accessModifier:</text>
+    <line x1="39" y1="39" x2="46" y2="39" />
+    <rect x="47" width="67" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="80" y="42" text-anchor="middle" textLength="56" lengthAdjust="spacingAndGlyphs">'PUBLIC'</text>
+    <line x1="115" y1="39" x2="122" y2="39" />
+    <line x1="36" y1="67" x2="43" y2="67" />
+    <rect x="44" width="74" y="56" height="22" rx="4" ry="4" class="token" />
+    <text x="81" y="70" text-anchor="middle" textLength="63" lengthAdjust="spacingAndGlyphs">'PRIVATE'</text>
+    <line x1="119" y1="67" x2="126" y2="67" />
+    <line x1="29" y1="95" x2="36" y2="95" />
+    <rect x="37" width="88" y="84" height="22" rx="4" ry="4" class="token" />
+    <text x="81" y="98" text-anchor="middle" textLength="77" lengthAdjust="spacingAndGlyphs">'PROTECTED'</text>
+    <line x1="126" y1="95" x2="133" y2="95" />
+    <line x1="32" y1="123" x2="39" y2="123" />
+    <rect x="40" width="81" y="112" height="22" rx="4" ry="4" class="token" />
+    <text x="80" y="126" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">'INTERNAL'</text>
+    <line x1="122" y1="123" x2="129" y2="123" />
+    <line x1="14" y1="39" x2="40" y2="39" />
+    <line x1="120" y1="39" x2="148" y2="39" />
+    <path d="M20,39 a5,5 0 0 1 5,5 L25,118 a5,5 0 0 0 5,5 L34,123" />
+    <path d="M127,123 L132,123 a5,5 0 0 0 5,-5 L137,44 a5,5 0 0 1 5,-5" />
+    <path d="M25,62 a5,5 0 0 0 5,5 L38,67" />
+    <path d="M137,62 a5,5 0 0 1 -5,5 L124,67" />
+    <path d="M25,90 a5,5 0 0 0 5,5 L31,95" />
+    <path d="M137,90 a5,5 0 0 1 -5,5 L131,95" />
+    <line x1="146" y1="39" x2="153" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="152" y1="39" x2="162" y2="39" />
+    <line x1="157" y1="33" x2="157" y2="45" />
+    <line x1="162" y1="33" x2="162" y2="45" />
+  </g>
+</svg>

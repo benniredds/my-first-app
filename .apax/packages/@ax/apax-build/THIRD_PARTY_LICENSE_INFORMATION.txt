@@ -1,0 +1,1 @@
+See the @ax/third-party-licenses-apax-build package for information about third-party licenses.

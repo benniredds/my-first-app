@@ -1,0 +1,17 @@
+{
+  "optionalDependencies": {
+    "@ax/sld-win-x64": "0.11.1",
+    "@ax/sld-linux-x64": "0.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/plc-loader"
+  },
+  "name": "@ax/sld",
+  "version": "0.11.1",
+  "description": "The SIMATIC Loader.",
+  "dependencies": {
+    "@ax/third-party-licenses-plc-loader": "0.11.1"
+  },
+  "author": "Siemens AG"
+}

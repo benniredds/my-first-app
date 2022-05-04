@@ -1,0 +1,17 @@
+{
+  "optionalDependencies": {
+    "@ax/mon-win-x64": "0.16.1",
+    "@ax/mon-linux-x64": "0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/mon",
+  "version": "0.16.1",
+  "description": "The SIMATIC Monitor. Enables you to monitor global variables on your PLC.",
+  "dependencies": {
+    "@ax/third-party-licenses-monitor": "0.16.1"
+  },
+  "author": "Siemens AG"
+}

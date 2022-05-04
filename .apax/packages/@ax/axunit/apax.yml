@@ -1,0 +1,25 @@
+name: "@ax/axunit"
+version: 1.5.4647
+author: Siemens AG
+description: The AxUnit includes everything you need for unit testing.
+type: generic
+scripts:
+  build: "# dummy"
+files:
+  - "*.js"
+dependencies:
+  "@ax/axunit-library": 1.5.4647
+  "@ax/axunit-runner-llvm": 1.5.4647
+  "@ax/axunit-llvm-runner-gen": 1.5.4647
+  "@ax/axunit-runner-mc7plus": 1.5.4647
+  "@ax/target-axunit": 1.5.4647
+  "@ax/axunit-docs": 1.5.4647
+  "@ax/build-native": 10.1.1
+_internalPackageJsonPassthrough:
+  bin:
+    axunit: axunit.js
+    apax-test: axunit.js
+    axunit-build-native: axunit-build-native-runner.js
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework

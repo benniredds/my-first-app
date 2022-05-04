@@ -1,0 +1,23 @@
+{
+  "hidden": true,
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "bin": {
+    "diag": "./bin/diag.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/diag-win-x64",
+  "version": "0.16.1",
+  "description": "The Windows (x64) version of the the SIMATIC diagnostics tool. Do not reference this package directly, use @ax/diag instead.",
+  "dependencies": {
+    "@ax/third-party-licenses-monitor": "0.16.1"
+  },
+  "author": "Siemens AG"
+}

@@ -1,0 +1,11 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/target-axunit",
+  "version": "1.5.4647",
+  "description": "The target AxUnit.",
+  "author": "Siemens AG"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="1112" height="105" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="92" y="17" text-anchor="middle" textLength="175" lengthAdjust="spacingAndGlyphs" class="rulecaption">functionBlockDeclaration:</text>
+    <line x1="29" y1="39" x2="36" y2="39" />
+    <rect x="37" width="53" y="28" height="22" class="rule" />
+    <text x="63" y="42" text-anchor="middle" textLength="42" lengthAdjust="spacingAndGlyphs">pragma</text>
+    <line x1="91" y1="39" x2="98" y2="39" />
+    <line x1="14" y1="39" x2="30" y2="39" />
+    <line x1="96" y1="39" x2="113" y2="39" />
+    <line x1="29" y1="57" x2="98" y2="57" />
+    <path d="M97,39 a5,5 0 0 1 5,5 L102,52 a5,5 0 0 1 -5,5 L96,57" />
+    <path d="M30,39 a5,5 0 0 0 -5,5 L25,52 a5,5 0 0 0 5,5" />
+    <path d="M20,39 a5,5 0 0 1 5,5" />
+    <path d="M107,39 a5,5 0 0 0 -5,5" />
+    <line x1="111" y1="39" x2="118" y2="39" />
+    <rect x="119" width="123" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="180" y="42" text-anchor="middle" textLength="112" lengthAdjust="spacingAndGlyphs">'FUNCTION_BLOCK'</text>
+    <line x1="258" y1="39" x2="383" y2="39" />
+    <line x1="258" y1="57" x2="265" y2="57" />
+    <rect x="266" width="109" y="46" height="22" class="rule" />
+    <text x="320" y="60" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs">accessModifier</text>
+    <line x1="376" y1="57" x2="383" y2="57" />
+    <line x1="243" y1="39" x2="259" y2="39" />
+    <line x1="381" y1="39" x2="398" y2="39" />
+    <path d="M249,39 a5,5 0 0 1 5,5 L254,52 a5,5 0 0 0 5,5 L260,57" />
+    <path d="M381,57 L382,57 a5,5 0 0 0 5,-5 L387,44 a5,5 0 0 1 5,-5" />
+    <line x1="396" y1="39" x2="403" y2="39" />
+    <rect x="404" width="95" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="451" y="42" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs">'identifier'</text>
+    <line x1="515" y1="39" x2="522" y2="39" />
+    <rect x="523" width="109" y="28" height="22" class="rule" />
+    <text x="577" y="42" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs">usingDirective</text>
+    <line x1="633" y1="39" x2="640" y2="39" />
+    <line x1="500" y1="39" x2="516" y2="39" />
+    <line x1="638" y1="39" x2="655" y2="39" />
+    <line x1="515" y1="57" x2="640" y2="57" />
+    <path d="M639,39 a5,5 0 0 1 5,5 L644,52 a5,5 0 0 1 -5,5 L638,57" />
+    <path d="M516,39 a5,5 0 0 0 -5,5 L511,52 a5,5 0 0 0 5,5" />
+    <path d="M506,39 a5,5 0 0 1 5,5" />
+    <path d="M649,39 a5,5 0 0 0 -5,5" />
+    <line x1="668" y1="39" x2="675" y2="39" />
+    <rect x="676" width="158" y="28" height="22" class="rule" />
+    <text x="755" y="42" text-anchor="middle" textLength="147" lengthAdjust="spacingAndGlyphs">varDeclarationSection</text>
+    <line x1="835" y1="39" x2="842" y2="39" />
+    <line x1="653" y1="39" x2="669" y2="39" />
+    <line x1="840" y1="39" x2="857" y2="39" />
+    <line x1="668" y1="57" x2="842" y2="57" />
+    <path d="M841,39 a5,5 0 0 1 5,5 L846,52 a5,5 0 0 1 -5,5 L840,57" />
+    <path d="M669,39 a5,5 0 0 0 -5,5 L664,52 a5,5 0 0 0 5,5" />
+    <path d="M659,39 a5,5 0 0 1 5,5" />
+    <path d="M851,39 a5,5 0 0 0 -5,5" />
+    <line x1="855" y1="39" x2="862" y2="39" />
+    <rect x="863" width="67" y="28" height="22" class="rule" />
+    <text x="896" y="42" text-anchor="middle" textLength="56" lengthAdjust="spacingAndGlyphs">codeBody</text>
+    <line x1="931" y1="39" x2="938" y2="39" />
+    <rect x="939" width="151" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="1014" y="42" text-anchor="middle" textLength="140" lengthAdjust="spacingAndGlyphs">'END_FUNCTION_BLOCK'</text>
+    <line x1="1091" y1="39" x2="1098" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="1097" y1="39" x2="1107" y2="39" />
+    <line x1="1102" y1="33" x2="1102" y2="45" />
+    <line x1="1107" y1="33" x2="1107" y2="45" />
+  </g>
+</svg>

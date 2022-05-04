@@ -1,0 +1,24 @@
+{
+  "bin": {
+    "stc": "./bin/stc.exe"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+  },
+  "name": "@ax/stc-win-x64",
+  "version": "2.4.4",
+  "description": "The Windows (x64) version of the ST compiler. Do not reference this package directly, use @ax/stc instead.",
+  "dependencies": {
+    "@ax/st-docs": "2.4.4",
+    "@ax/third-party-licenses-st-compiler": "2.4.4"
+  },
+  "author": "Siemens AG"
+}

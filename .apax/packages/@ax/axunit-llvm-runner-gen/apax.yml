@@ -1,0 +1,14 @@
+name: "@ax/axunit-llvm-runner-gen"
+version: 1.5.4647
+author: Siemens AG
+description: The LLVM Runner Generator.
+type: generic
+scripts:
+  build: "dotnet publish ../../src/LLVM.Runner.Generator -o bin -c Release --no-self-contained -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false"
+_internalPackageJsonPassthrough:
+  hidden: true
+  bin:
+    axunit-runner-gen: axunit-runner-gen.js
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework

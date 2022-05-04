@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "optionalDependencies": {
+    "@ax/axunit-runner-llvm-linux-x64": "1.5.4647",
+    "@ax/axunit-runner-llvm-win-x64": "1.5.4647"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/axunit-runner-llvm",
+  "version": "1.5.4647",
+  "description": "The AxUnit LLVM Runner.",
+  "author": "Siemens AG"
+}

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="402" height="1153" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="43" y="17" text-anchor="middle" textLength="77" lengthAdjust="spacingAndGlyphs" class="rulecaption">expression:</text>
+    <line x1="122" y1="39" x2="129" y2="39" />
+    <rect x="130" width="137" y="28" height="22" class="rule" />
+    <text x="198" y="42" text-anchor="middle" textLength="126" lengthAdjust="spacingAndGlyphs">primary_expression</text>
+    <line x1="268" y1="39" x2="275" y2="39" />
+    <line x1="118" y1="67" x2="125" y2="67" />
+    <rect x="126" width="144" y="56" height="22" class="rule" />
+    <text x="198" y="70" text-anchor="middle" textLength="133" lengthAdjust="spacingAndGlyphs">referenceExpression</text>
+    <line x1="271" y1="67" x2="278" y2="67" />
+    <line x1="129" y1="95" x2="136" y2="95" />
+    <rect x="137" width="123" y="84" height="22" class="rule" />
+    <text x="198" y="98" text-anchor="middle" textLength="112" lengthAdjust="spacingAndGlyphs">nameOfExpression</text>
+    <line x1="261" y1="95" x2="268" y2="95" />
+    <line x1="111" y1="123" x2="118" y2="123" />
+    <rect x="119" width="158" y="112" height="22" class="rule" />
+    <text x="198" y="126" text-anchor="middle" textLength="147" lengthAdjust="spacingAndGlyphs">rotateShiftExpression</text>
+    <line x1="278" y1="123" x2="285" y2="123" />
+    <line x1="125" y1="151" x2="132" y2="151" />
+    <rect x="133" width="130" y="140" height="22" class="rule" />
+    <text x="198" y="154" text-anchor="middle" textLength="119" lengthAdjust="spacingAndGlyphs">convertExpression</text>
+    <line x1="264" y1="151" x2="271" y2="151" />
+    <line x1="132" y1="179" x2="139" y2="179" />
+    <rect x="140" width="116" y="168" height="22" class="rule" />
+    <text x="198" y="182" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs">boundExpression</text>
+    <line x1="257" y1="179" x2="264" y2="179" />
+    <line x1="109" y1="207" x2="116" y2="207" />
+    <rect x="117" width="32" y="196" height="22" rx="4" ry="4" class="token" />
+    <text x="133" y="210" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'('</text>
+    <line x1="150" y1="207" x2="157" y2="207" />
+    <rect x="158" width="81" y="196" height="22" class="rule" />
+    <text x="198" y="210" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="240" y1="207" x2="247" y2="207" />
+    <rect x="248" width="32" y="196" height="22" rx="4" ry="4" class="token" />
+    <text x="264" y="210" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">')'</text>
+    <line x1="281" y1="207" x2="288" y2="207" />
+    <line x1="84" y1="235" x2="91" y2="235" />
+    <rect x="92" width="81" y="224" height="22" class="rule" />
+    <text x="132" y="238" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="174" y1="235" x2="181" y2="235" />
+    <rect x="182" width="32" y="224" height="22" rx="4" ry="4" class="token" />
+    <text x="198" y="238" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'.'</text>
+    <line x1="215" y1="235" x2="222" y2="235" />
+    <rect x="223" width="81" y="224" height="22" class="rule" />
+    <text x="263" y="238" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="305" y1="235" x2="312" y2="235" />
+    <line x1="84" y1="263" x2="91" y2="263" />
+    <rect x="92" width="81" y="252" height="22" class="rule" />
+    <text x="132" y="266" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="174" y1="263" x2="181" y2="263" />
+    <rect x="182" width="123" y="252" height="22" rx="4" ry="4" class="token" />
+    <text x="243" y="266" text-anchor="middle" textLength="112" lengthAdjust="spacingAndGlyphs">'partial access'</text>
+    <line x1="306" y1="263" x2="313" y2="263" />
+    <line x1="36" y1="291" x2="43" y2="291" />
+    <rect x="44" width="81" y="280" height="22" class="rule" />
+    <text x="84" y="294" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="126" y1="291" x2="133" y2="291" />
+    <rect x="134" width="32" y="280" height="22" rx="4" ry="4" class="token" />
+    <text x="150" y="294" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'('</text>
+    <line x1="182" y1="291" x2="300" y2="291" />
+    <line x1="182" y1="309" x2="189" y2="309" />
+    <rect x="190" width="102" y="298" height="22" class="rule" />
+    <text x="241" y="312" text-anchor="middle" textLength="91" lengthAdjust="spacingAndGlyphs">parameterList</text>
+    <line x1="293" y1="309" x2="300" y2="309" />
+    <line x1="167" y1="291" x2="183" y2="291" />
+    <line x1="298" y1="291" x2="315" y2="291" />
+    <path d="M173,291 a5,5 0 0 1 5,5 L178,304 a5,5 0 0 0 5,5 L184,309" />
+    <path d="M298,309 L299,309 a5,5 0 0 0 5,-5 L304,296 a5,5 0 0 1 5,-5" />
+    <line x1="313" y1="291" x2="320" y2="291" />
+    <rect x="321" width="32" y="280" height="22" rx="4" ry="4" class="token" />
+    <text x="337" y="294" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">')'</text>
+    <line x1="354" y1="291" x2="361" y2="291" />
+    <line x1="29" y1="341" x2="36" y2="341" />
+    <rect x="37" width="81" y="330" height="22" class="rule" />
+    <text x="77" y="344" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="119" y1="341" x2="126" y2="341" />
+    <rect x="127" width="32" y="330" height="22" rx="4" ry="4" class="token" />
+    <text x="143" y="344" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'['</text>
+    <line x1="160" y1="341" x2="167" y2="341" />
+    <rect x="168" width="151" y="330" height="22" class="rule" />
+    <text x="243" y="344" text-anchor="middle" textLength="140" lengthAdjust="spacingAndGlyphs">arrayAccessIndexList</text>
+    <line x1="320" y1="341" x2="327" y2="341" />
+    <rect x="328" width="32" y="330" height="22" rx="4" ry="4" class="token" />
+    <text x="344" y="344" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">']'</text>
+    <line x1="361" y1="341" x2="368" y2="341" />
+    <line x1="129" y1="369" x2="136" y2="369" />
+    <rect x="137" width="81" y="358" height="22" class="rule" />
+    <text x="177" y="372" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="219" y1="369" x2="226" y2="369" />
+    <rect x="227" width="32" y="358" height="22" rx="4" ry="4" class="token" />
+    <text x="243" y="372" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'^'</text>
+    <line x1="260" y1="369" x2="267" y2="369" />
+    <line x1="122" y1="397" x2="129" y2="397" />
+    <rect x="130" width="46" y="386" height="22" rx="4" ry="4" class="token" />
+    <text x="153" y="400" text-anchor="middle" textLength="35" lengthAdjust="spacingAndGlyphs">'NOT'</text>
+    <line x1="177" y1="397" x2="184" y2="397" />
+    <rect x="185" width="81" y="386" height="22" class="rule" />
+    <text x="225" y="400" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="267" y1="397" x2="274" y2="397" />
+    <line x1="81" y1="425" x2="88" y2="425" />
+    <rect x="89" width="81" y="414" height="22" class="rule" />
+    <text x="129" y="428" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="171" y1="425" x2="178" y2="425" />
+    <rect x="179" width="39" y="414" height="22" rx="4" ry="4" class="token" />
+    <text x="198" y="428" text-anchor="middle" textLength="28" lengthAdjust="spacingAndGlyphs">'**'</text>
+    <line x1="219" y1="425" x2="226" y2="425" />
+    <rect x="227" width="81" y="414" height="22" class="rule" />
+    <text x="267" y="428" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="309" y1="425" x2="316" y2="425" />
+    <line x1="60" y1="453" x2="67" y2="453" />
+    <rect x="68" width="81" y="442" height="22" class="rule" />
+    <text x="108" y="456" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="172" y1="453" x2="179" y2="453" />
+    <rect x="180" width="32" y="442" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="456" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'*'</text>
+    <line x1="213" y1="453" x2="220" y2="453" />
+    <line x1="172" y1="481" x2="179" y2="481" />
+    <rect x="180" width="32" y="470" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="484" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'/'</text>
+    <line x1="213" y1="481" x2="220" y2="481" />
+    <line x1="165" y1="509" x2="172" y2="509" />
+    <rect x="173" width="46" y="498" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="512" text-anchor="middle" textLength="35" lengthAdjust="spacingAndGlyphs">'MOD'</text>
+    <line x1="220" y1="509" x2="227" y2="509" />
+    <line x1="150" y1="453" x2="173" y2="453" />
+    <line x1="218" y1="453" x2="242" y2="453" />
+    <path d="M156,453 a5,5 0 0 1 5,5 L161,504 a5,5 0 0 0 5,5 L167,509" />
+    <path d="M225,509 L226,509 a5,5 0 0 0 5,-5 L231,458 a5,5 0 0 1 5,-5" />
+    <path d="M161,476 a5,5 0 0 0 5,5 L174,481" />
+    <path d="M231,476 a5,5 0 0 1 -5,5 L218,481" />
+    <line x1="240" y1="453" x2="247" y2="453" />
+    <rect x="248" width="81" y="442" height="22" class="rule" />
+    <text x="288" y="456" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="330" y1="453" x2="337" y2="453" />
+    <line x1="67" y1="551" x2="74" y2="551" />
+    <rect x="75" width="81" y="540" height="22" class="rule" />
+    <text x="115" y="554" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="172" y1="551" x2="179" y2="551" />
+    <rect x="180" width="32" y="540" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="554" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'+'</text>
+    <line x1="213" y1="551" x2="220" y2="551" />
+    <line x1="172" y1="579" x2="179" y2="579" />
+    <rect x="180" width="32" y="568" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="582" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'-'</text>
+    <line x1="213" y1="579" x2="220" y2="579" />
+    <line x1="157" y1="551" x2="173" y2="551" />
+    <line x1="218" y1="551" x2="235" y2="551" />
+    <path d="M163,551 a5,5 0 0 1 5,5 L168,574 a5,5 0 0 0 5,5 L174,579" />
+    <path d="M218,579 L219,579 a5,5 0 0 0 5,-5 L224,556 a5,5 0 0 1 5,-5" />
+    <line x1="233" y1="551" x2="240" y2="551" />
+    <rect x="241" width="81" y="540" height="22" class="rule" />
+    <text x="281" y="554" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="323" y1="551" x2="330" y2="551" />
+    <line x1="63" y1="621" x2="70" y2="621" />
+    <rect x="71" width="81" y="610" height="22" class="rule" />
+    <text x="111" y="624" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="171" y1="621" x2="178" y2="621" />
+    <rect x="179" width="32" y="610" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="624" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'='</text>
+    <line x1="212" y1="621" x2="219" y2="621" />
+    <line x1="171" y1="649" x2="178" y2="649" />
+    <rect x="179" width="32" y="638" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="652" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'&lt;'</text>
+    <line x1="212" y1="649" x2="219" y2="649" />
+    <line x1="171" y1="677" x2="178" y2="677" />
+    <rect x="179" width="32" y="666" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="680" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'&gt;'</text>
+    <line x1="212" y1="677" x2="219" y2="677" />
+    <line x1="168" y1="705" x2="175" y2="705" />
+    <rect x="176" width="39" y="694" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="708" text-anchor="middle" textLength="28" lengthAdjust="spacingAndGlyphs">'&lt;&gt;'</text>
+    <line x1="216" y1="705" x2="223" y2="705" />
+    <line x1="168" y1="733" x2="175" y2="733" />
+    <rect x="176" width="39" y="722" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="736" text-anchor="middle" textLength="28" lengthAdjust="spacingAndGlyphs">'&gt;='</text>
+    <line x1="216" y1="733" x2="223" y2="733" />
+    <line x1="168" y1="761" x2="175" y2="761" />
+    <rect x="176" width="39" y="750" height="22" rx="4" ry="4" class="token" />
+    <text x="195" y="764" text-anchor="middle" textLength="28" lengthAdjust="spacingAndGlyphs">'&lt;='</text>
+    <line x1="216" y1="761" x2="223" y2="761" />
+    <line x1="153" y1="621" x2="172" y2="621" />
+    <line x1="217" y1="621" x2="238" y2="621" />
+    <path d="M159,621 a5,5 0 0 1 5,5 L164,756 a5,5 0 0 0 5,5 L170,761" />
+    <path d="M221,761 L222,761 a5,5 0 0 0 5,-5 L227,626 a5,5 0 0 1 5,-5" />
+    <path d="M164,644 a5,5 0 0 0 5,5 L173,649" />
+    <path d="M227,644 a5,5 0 0 1 -5,5 L217,649" />
+    <path d="M164,672 a5,5 0 0 0 5,5 L173,677" />
+    <path d="M227,672 a5,5 0 0 1 -5,5 L217,677" />
+    <path d="M164,700 a5,5 0 0 0 5,5 L170,705" />
+    <path d="M227,700 a5,5 0 0 1 -5,5 L221,705" />
+    <path d="M164,728 a5,5 0 0 0 5,5 L170,733" />
+    <path d="M227,728 a5,5 0 0 1 -5,5 L221,733" />
+    <line x1="236" y1="621" x2="243" y2="621" />
+    <rect x="244" width="81" y="610" height="22" class="rule" />
+    <text x="284" y="624" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="326" y1="621" x2="333" y2="621" />
+    <line x1="60" y1="803" x2="67" y2="803" />
+    <rect x="68" width="81" y="792" height="22" class="rule" />
+    <text x="108" y="806" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="165" y1="803" x2="172" y2="803" />
+    <rect x="173" width="46" y="792" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="806" text-anchor="middle" textLength="35" lengthAdjust="spacingAndGlyphs">'AND'</text>
+    <line x1="220" y1="803" x2="227" y2="803" />
+    <line x1="172" y1="831" x2="179" y2="831" />
+    <rect x="180" width="32" y="820" height="22" rx="4" ry="4" class="token" />
+    <text x="196" y="834" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">'&amp;'</text>
+    <line x1="213" y1="831" x2="220" y2="831" />
+    <line x1="150" y1="803" x2="166" y2="803" />
+    <line x1="225" y1="803" x2="242" y2="803" />
+    <path d="M156,803 a5,5 0 0 1 5,5 L161,826 a5,5 0 0 0 5,5 L174,831" />
+    <path d="M218,831 L226,831 a5,5 0 0 0 5,-5 L231,808 a5,5 0 0 1 5,-5" />
+    <line x1="240" y1="803" x2="247" y2="803" />
+    <rect x="248" width="81" y="792" height="22" class="rule" />
+    <text x="288" y="806" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="330" y1="803" x2="337" y2="803" />
+    <line x1="77" y1="873" x2="84" y2="873" />
+    <rect x="85" width="81" y="862" height="22" class="rule" />
+    <text x="125" y="876" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="167" y1="873" x2="174" y2="873" />
+    <rect x="175" width="46" y="862" height="22" rx="4" ry="4" class="token" />
+    <text x="198" y="876" text-anchor="middle" textLength="35" lengthAdjust="spacingAndGlyphs">'XOR'</text>
+    <line x1="222" y1="873" x2="229" y2="873" />
+    <rect x="230" width="81" y="862" height="22" class="rule" />
+    <text x="270" y="876" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="312" y1="873" x2="319" y2="873" />
+    <line x1="81" y1="901" x2="88" y2="901" />
+    <rect x="89" width="81" y="890" height="22" class="rule" />
+    <text x="129" y="904" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="171" y1="901" x2="178" y2="901" />
+    <rect x="179" width="39" y="890" height="22" rx="4" ry="4" class="token" />
+    <text x="198" y="904" text-anchor="middle" textLength="28" lengthAdjust="spacingAndGlyphs">'OR'</text>
+    <line x1="219" y1="901" x2="226" y2="901" />
+    <rect x="227" width="81" y="890" height="22" class="rule" />
+    <text x="267" y="904" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">expression</text>
+    <line x1="309" y1="901" x2="316" y2="901" />
+    <line x1="14" y1="39" x2="123" y2="39" />
+    <line x1="273" y1="39" x2="383" y2="39" />
+    <path d="M20,39 a5,5 0 0 1 5,5 L25,896 a5,5 0 0 0 5,5 L83,901" />
+    <path d="M314,901 L367,901 a5,5 0 0 0 5,-5 L372,44 a5,5 0 0 1 5,-5" />
+    <path d="M25,62 a5,5 0 0 0 5,5 L120,67" />
+    <path d="M372,62 a5,5 0 0 1 -5,5 L276,67" />
+    <path d="M25,90 a5,5 0 0 0 5,5 L131,95" />
+    <path d="M372,90 a5,5 0 0 1 -5,5 L266,95" />
+    <path d="M25,118 a5,5 0 0 0 5,5 L113,123" />
+    <path d="M372,118 a5,5 0 0 1 -5,5 L283,123" />
+    <path d="M25,146 a5,5 0 0 0 5,5 L127,151" />
+    <path d="M372,146 a5,5 0 0 1 -5,5 L269,151" />
+    <path d="M25,174 a5,5 0 0 0 5,5 L134,179" />
+    <path d="M372,174 a5,5 0 0 1 -5,5 L262,179" />
+    <path d="M25,202 a5,5 0 0 0 5,5 L111,207" />
+    <path d="M372,202 a5,5 0 0 1 -5,5 L286,207" />
+    <path d="M25,230 a5,5 0 0 0 5,5 L86,235" />
+    <path d="M372,230 a5,5 0 0 1 -5,5 L310,235" />
+    <path d="M25,258 a5,5 0 0 0 5,5 L86,263" />
+    <path d="M372,258 a5,5 0 0 1 -5,5 L311,263" />
+    <path d="M25,286 a5,5 0 0 0 5,5 L38,291" />
+    <path d="M372,286 a5,5 0 0 1 -5,5 L359,291" />
+    <path d="M25,336 a5,5 0 0 0 5,5 L31,341" />
+    <path d="M372,336 a5,5 0 0 1 -5,5 L366,341" />
+    <path d="M25,364 a5,5 0 0 0 5,5 L131,369" />
+    <path d="M372,364 a5,5 0 0 1 -5,5 L265,369" />
+    <path d="M25,392 a5,5 0 0 0 5,5 L124,397" />
+    <path d="M372,392 a5,5 0 0 1 -5,5 L272,397" />
+    <path d="M25,420 a5,5 0 0 0 5,5 L83,425" />
+    <path d="M372,420 a5,5 0 0 1 -5,5 L314,425" />
+    <path d="M25,448 a5,5 0 0 0 5,5 L62,453" />
+    <path d="M372,448 a5,5 0 0 1 -5,5 L335,453" />
+    <path d="M25,546 a5,5 0 0 0 5,5 L69,551" />
+    <path d="M372,546 a5,5 0 0 1 -5,5 L328,551" />
+    <path d="M25,616 a5,5 0 0 0 5,5 L65,621" />
+    <path d="M372,616 a5,5 0 0 1 -5,5 L331,621" />
+    <path d="M25,798 a5,5 0 0 0 5,5 L62,803" />
+    <path d="M372,798 a5,5 0 0 1 -5,5 L335,803" />
+    <path d="M25,868 a5,5 0 0 0 5,5 L79,873" />
+    <path d="M372,868 a5,5 0 0 1 -5,5 L317,873" />
+    <line x1="381" y1="39" x2="388" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="387" y1="39" x2="397" y2="39" />
+    <line x1="392" y1="33" x2="392" y2="45" />
+    <line x1="397" y1="33" x2="397" y2="45" />
+    <text x="71" y="961" text-anchor="middle" textLength="133" lengthAdjust="spacingAndGlyphs" class="rulecaption">primary_expression:</text>
+    <line x1="71" y1="983" x2="78" y2="983" />
+    <rect x="79" width="60" y="972" height="22" class="rule" />
+    <text x="109" y="986" text-anchor="middle" textLength="49" lengthAdjust="spacingAndGlyphs">literal</text>
+    <line x1="140" y1="983" x2="147" y2="983" />
+    <line x1="60" y1="1011" x2="67" y2="1011" />
+    <rect x="68" width="81" y="1000" height="22" class="rule" />
+    <text x="108" y="1014" text-anchor="middle" textLength="70" lengthAdjust="spacingAndGlyphs">thisAccess</text>
+    <line x1="150" y1="1011" x2="157" y2="1011" />
+    <line x1="39" y1="1039" x2="46" y2="1039" />
+    <rect x="47" width="123" y="1028" height="22" class="rule" />
+    <text x="108" y="1042" text-anchor="middle" textLength="112" lengthAdjust="spacingAndGlyphs">identifierAccess</text>
+    <line x1="171" y1="1039" x2="178" y2="1039" />
+    <line x1="29" y1="1067" x2="36" y2="1067" />
+    <rect x="37" width="144" y="1056" height="22" class="rule" />
+    <text x="109" y="1070" text-anchor="middle" textLength="133" lengthAdjust="spacingAndGlyphs">qualifiedEnumAccess</text>
+    <line x1="182" y1="1067" x2="189" y2="1067" />
+    <line x1="43" y1="1095" x2="50" y2="1095" />
+    <rect x="51" width="116" y="1084" height="22" class="rule" />
+    <text x="109" y="1098" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs">superExpression</text>
+    <line x1="168" y1="1095" x2="175" y2="1095" />
+    <line x1="14" y1="983" x2="72" y2="983" />
+    <line x1="145" y1="983" x2="204" y2="983" />
+    <path d="M20,983 a5,5 0 0 1 5,5 L25,1090 a5,5 0 0 0 5,5 L45,1095" />
+    <path d="M173,1095 L188,1095 a5,5 0 0 0 5,-5 L193,988 a5,5 0 0 1 5,-5" />
+    <path d="M25,1006 a5,5 0 0 0 5,5 L62,1011" />
+    <path d="M193,1006 a5,5 0 0 1 -5,5 L155,1011" />
+    <path d="M25,1034 a5,5 0 0 0 5,5 L41,1039" />
+    <path d="M193,1034 a5,5 0 0 1 -5,5 L176,1039" />
+    <path d="M25,1062 a5,5 0 0 0 5,5 L31,1067" />
+    <path d="M193,1062 a5,5 0 0 1 -5,5 L187,1067" />
+    <line x1="202" y1="983" x2="209" y2="983" />
+    <line x1="5" y1="983" x2="15" y2="983" />
+    <path d="M5, 983 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="208" y1="983" x2="218" y2="983" />
+    <line x1="213" y1="977" x2="213" y2="989" />
+    <line x1="218" y1="977" x2="218" y2="989" />
+  </g>
+</svg>

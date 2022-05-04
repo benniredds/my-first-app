@@ -1,0 +1,20 @@
+name: "@ax/mod-win-x64"
+version: 0.16.1
+author: Siemens AG
+description: The Windows (x64) version of the the SIMATIC Modifier. Do not reference this package directly, use @ax/mod instead.
+type: generic
+scripts:
+  build: dotnet publish ../../src/Simatic.Modify.CLI --configuration Release --output ./bin --runtime win-x64 --no-self-contained -p:DebugType=None -p:DebugSymbols=false
+_internalPackageJsonPassthrough:
+  hidden: true
+  os:
+    - win32
+  cpu:
+    - x64
+  bin:
+    mod: "./bin/mod.exe"
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/simatic/monitor
+dependencies:
+  '@ax/third-party-licenses-monitor': 0.16.1

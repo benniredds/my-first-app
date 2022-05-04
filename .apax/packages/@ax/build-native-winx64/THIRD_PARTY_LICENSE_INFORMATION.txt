@@ -1,0 +1,1 @@
+See the @ax/third-party-licenses-build-native package for information about third-party licenses.

@@ -1,0 +1,19 @@
+name: "@ax/sdk"
+version: 1.0.165
+author: Siemens AG
+description: The AX SDK includes everything you need to build PLC applications.
+type: generic
+dependencies:
+  "@ax/axunit": 1.5.4647
+  "@ax/diag": 0.16.1
+  "@ax/mod": 0.16.1
+  "@ax/mon": 0.16.1
+  "@ax/sdb": 0.16.1
+  "@ax/sld": 0.11.1
+  "@ax/st": 1.0.165
+  "@ax/target-llvm": 2.4.4
+  "@ax/target-mc7plus": 2.4.4
+_internalPackageJsonPassthrough:
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/apax/apax-sdk

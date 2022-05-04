@@ -1,0 +1,12 @@
+name: "@ax/st"
+version: 1.0.165
+author: Siemens AG
+description: The ST (Structured Text) package includes the compiler and associated tooling.
+type: generic
+dependencies:
+  "@ax/stc": 2.4.4
+  "@ax/apax-build": 0.4.1
+_internalPackageJsonPassthrough:
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/apax/apax-sdk

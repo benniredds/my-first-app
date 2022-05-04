@@ -1,0 +1,16 @@
+name: "@ax/apax-build"
+version: 0.4.1
+author: Siemens AG
+description: Provides the functionality for the `apax build` command.
+type: generic
+files:
+  - bin
+  - dist
+  - THIRD_PARTY_*
+_internalPackageJsonPassthrough:
+  bin: bin/cli.js
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/apax/apax-build
+dependencies:
+  '@ax/third-party-licenses-apax-build': 0.4.1

@@ -1,0 +1,22 @@
+name: "@ax/axunit-runner-llvm-win-x64"
+version: 1.5.4647
+author: Siemens AG
+description: The AxUnit Target. Do not reference this package directly, use @ax/axunit-runner-llvm instead.
+type: generic
+scripts:
+  build:
+    - dotnet publish ../../src/LLVM.Runner.CliPlugin -o bin -r win-x64 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false
+    - dotnet publish ../../src/AxUnit.Runner -o bin -r win-x64 -f netcoreapp3.1 -c Release -p:DebugType=None -p:DebugSymbols=false -p:NuGetScannerDownloadSources=false
+    - rm bin/*.deps.json
+_internalPackageJsonPassthrough:
+  hidden: true
+  os:
+    - win32
+  cpu:
+    - x64
+  bin:
+    axunit.runner.llvm: "bin/AxUnit.Runner.exe"
+    axunit-runner-llvm: "bin/AxUnit.Runner.exe"
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework

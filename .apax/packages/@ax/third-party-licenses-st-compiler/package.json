@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+  },
+  "name": "@ax/third-party-licenses-st-compiler",
+  "version": "2.4.4"
+}

@@ -1,0 +1,14 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/apax/apax-sdk"
+  },
+  "name": "@ax/st",
+  "version": "1.0.165",
+  "description": "The ST (Structured Text) package includes the compiler and associated tooling.",
+  "dependencies": {
+    "@ax/stc": "2.4.4",
+    "@ax/apax-build": "0.4.1"
+  },
+  "author": "Siemens AG"
+}

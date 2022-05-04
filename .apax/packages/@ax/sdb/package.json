@@ -1,0 +1,17 @@
+{
+  "optionalDependencies": {
+    "@ax/sdb-win-x64": "0.16.1",
+    "@ax/sdb-linux-x64": "0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/sdb",
+  "version": "0.16.1",
+  "description": "The SIMATIC Debugger. Enables debugging source code on the PLC and is needed to run the debugger extension.",
+  "dependencies": {
+    "@ax/third-party-licenses-monitor": "0.16.1"
+  },
+  "author": "Siemens AG"
+}

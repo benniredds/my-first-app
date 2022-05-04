@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/simatic/monitor"
+  },
+  "name": "@ax/third-party-licenses-monitor",
+  "version": "0.16.1"
+}

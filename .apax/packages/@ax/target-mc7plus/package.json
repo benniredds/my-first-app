@@ -1,0 +1,18 @@
+{
+  "optionalDependencies": {
+    "@ax/target-mc7plus-win-x64": "2.4.4",
+    "@ax/target-mc7plus-linux-x64": "2.4.4"
+  },
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/languages/st/st-compiler"
+  },
+  "name": "@ax/target-mc7plus",
+  "version": "2.4.4",
+  "description": "The MC7plus target backend.",
+  "dependencies": {
+    "@ax/third-party-licenses-st-compiler": "2.4.4"
+  },
+  "author": "Siemens AG"
+}

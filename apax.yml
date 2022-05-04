@@ -4,5 +4,6 @@ type: app
 targets:
   - "1500"
   - axunit-llvm
+  - plcsim
 devDependencies:
   "@ax/sdk": ^1.0.0

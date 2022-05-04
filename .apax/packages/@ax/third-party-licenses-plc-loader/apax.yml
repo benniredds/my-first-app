@@ -1,0 +1,8 @@
+name: "@ax/third-party-licenses-plc-loader"
+version: 0.11.1
+type: generic
+_internalPackageJsonPassthrough:
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/simatic/plc-loader

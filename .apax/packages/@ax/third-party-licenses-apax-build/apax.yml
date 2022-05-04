@@ -1,0 +1,7 @@
+name: "@ax/third-party-licenses-apax-build"
+version: 0.4.1
+type: generic
+_internalPackageJsonPassthrough:
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/apax/apax-build

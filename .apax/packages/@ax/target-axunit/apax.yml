@@ -1,0 +1,17 @@
+name: "@ax/target-axunit"
+version: 1.5.4647
+author: Siemens AG
+description: The target AxUnit.
+type: generic
+scripts:
+  build: "dotnet publish ../../src/Target.AxUnit.Cli -o bin -f netstandard2.0 -p:NuGetScannerDownloadSources=false"
+files:
+  - bin/AxUnit.Analyzer.dll
+  - bin/Target.AxUnit.CLI.BackendPlugin.deps.json
+  - bin/Target.AxUnit.CLI.BackendPlugin.dll
+  - bin/Target.AxUnit.dll
+_internalPackageJsonPassthrough:
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework

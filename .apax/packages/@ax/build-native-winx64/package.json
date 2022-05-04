@@ -1,0 +1,26 @@
+{
+  "hidden": true,
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "bin": {
+    "compile-native": "bin/compile-native.js",
+    "compile-app": "bin/compile-app.js",
+    "clang": "bin/clang.exe",
+    "lld-link": "bin/lld-link.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/languages/st/build-native"
+  },
+  "name": "@ax/build-native-winx64",
+  "version": "10.1.1",
+  "description": "tools to compile LLVM to native for winx64",
+  "dependencies": {
+    "@ax/third-party-licenses-build-native": "10.1.1"
+  },
+  "author": "Siemens AG"
+}

@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ax/testing/testingframework"
+  },
+  "name": "@ax/axunit-docs",
+  "version": "1.5.4647"
+}

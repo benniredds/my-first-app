@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="axrailroad" width="658" height="173" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css"><![CDATA[/* styling for railroad diagrams */
+
+svg.axrailroad {
+    background-color: transparent;
+}
+
+svg.axrailroad path {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+svg.axrailroad text {
+    font: 12px monospace;
+    text-anchor: middle;
+}
+
+svg.axrailroad text.rulecaption {
+    text-decoration: underline;
+}
+
+svg.axrailroad line {
+    stroke-width: 2;
+    stroke: black;
+}
+
+svg.axrailroad rect {
+    stroke-width: 2;
+    stroke: black;
+}
+svg.axrailroad rect.token {
+    stroke: black;
+    fill: #00D7A0;
+}
+
+svg.axrailroad rect.rule {
+    stroke-width: 2;
+    stroke: black;
+    fill: #00bedc;
+}
+]]></style>
+  <g class="diagram">
+    <text x="43" y="17" text-anchor="middle" textLength="77" lengthAdjust="spacingAndGlyphs" class="rulecaption">progConfig:</text>
+    <line x1="29" y1="39" x2="36" y2="39" />
+    <rect x="37" width="53" y="28" height="22" class="rule" />
+    <text x="63" y="42" text-anchor="middle" textLength="42" lengthAdjust="spacingAndGlyphs">pragma</text>
+    <line x1="91" y1="39" x2="98" y2="39" />
+    <line x1="14" y1="39" x2="30" y2="39" />
+    <line x1="96" y1="39" x2="113" y2="39" />
+    <line x1="29" y1="57" x2="98" y2="57" />
+    <path d="M97,39 a5,5 0 0 1 5,5 L102,52 a5,5 0 0 1 -5,5 L96,57" />
+    <path d="M30,39 a5,5 0 0 0 -5,5 L25,52 a5,5 0 0 0 5,5" />
+    <path d="M20,39 a5,5 0 0 1 5,5" />
+    <path d="M107,39 a5,5 0 0 0 -5,5" />
+    <line x1="111" y1="39" x2="118" y2="39" />
+    <rect x="119" width="74" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="156" y="42" text-anchor="middle" textLength="63" lengthAdjust="spacingAndGlyphs">'PROGRAM'</text>
+    <line x1="194" y1="39" x2="201" y2="39" />
+    <rect x="202" width="95" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="249" y="42" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs">'identifier'</text>
+    <line x1="313" y1="39" x2="438" y2="39" />
+    <line x1="313" y1="57" x2="320" y2="57" />
+    <rect x="321" width="109" y="46" height="22" class="rule" />
+    <text x="375" y="60" text-anchor="middle" textLength="98" lengthAdjust="spacingAndGlyphs">taskAssignment</text>
+    <line x1="431" y1="57" x2="438" y2="57" />
+    <line x1="298" y1="39" x2="314" y2="39" />
+    <line x1="436" y1="39" x2="453" y2="39" />
+    <path d="M304,39 a5,5 0 0 1 5,5 L309,52 a5,5 0 0 0 5,5 L315,57" />
+    <path d="M436,57 L437,57 a5,5 0 0 0 5,-5 L442,44 a5,5 0 0 1 5,-5" />
+    <line x1="451" y1="39" x2="458" y2="39" />
+    <rect x="459" width="32" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="475" y="42" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">':'</text>
+    <line x1="492" y1="39" x2="499" y2="39" />
+    <rect x="500" width="95" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="547" y="42" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs">'identifier'</text>
+    <line x1="596" y1="39" x2="603" y2="39" />
+    <rect x="604" width="32" y="28" height="22" rx="4" ry="4" class="token" />
+    <text x="620" y="42" text-anchor="middle" textLength="21" lengthAdjust="spacingAndGlyphs">';'</text>
+    <line x1="637" y1="39" x2="644" y2="39" />
+    <line x1="5" y1="39" x2="15" y2="39" />
+    <path d="M5, 39 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="643" y1="39" x2="653" y2="39" />
+    <line x1="648" y1="33" x2="648" y2="45" />
+    <line x1="653" y1="33" x2="653" y2="45" />
+    <text x="57" y="107" text-anchor="middle" textLength="105" lengthAdjust="spacingAndGlyphs" class="rulecaption">taskAssignment:</text>
+    <line x1="14" y1="129" x2="21" y2="129" />
+    <rect x="22" width="53" y="118" height="22" rx="4" ry="4" class="token" />
+    <text x="48" y="132" text-anchor="middle" textLength="42" lengthAdjust="spacingAndGlyphs">'WITH'</text>
+    <line x1="76" y1="129" x2="83" y2="129" />
+    <rect x="84" width="95" y="118" height="22" rx="4" ry="4" class="token" />
+    <text x="131" y="132" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs">'identifier'</text>
+    <line x1="180" y1="129" x2="187" y2="129" />
+    <line x1="5" y1="129" x2="15" y2="129" />
+    <path d="M5, 129 l0,-3 l6,3 l-6,3 l0,-4" />
+    <line x1="186" y1="129" x2="196" y2="129" />
+    <line x1="191" y1="123" x2="191" y2="135" />
+    <line x1="196" y1="123" x2="196" y2="135" />
+  </g>
+</svg>

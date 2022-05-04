@@ -1,0 +1,12 @@
+name: "@ax/axunit-docs"
+version: 1.5.4647
+type: generic
+scripts:
+  build: |
+    cp -r ../../userdocs docs
+    cp ../../CHANGELOG.md CHANGELOG.md
+_internalPackageJsonPassthrough:
+  hidden: true
+  repository:
+    type: git
+    url: https://code.siemens.com/ax/testing/testingframework
