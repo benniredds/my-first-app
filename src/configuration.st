@@ -16,6 +16,7 @@ END_CONFIGURATION
 FUNCTION myfunction_3 : INT
     VAR_INPUT
     myIN_3: INT;
+    ciao: INT;
     END_VAR
 
     ;
